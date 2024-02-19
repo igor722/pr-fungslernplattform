@@ -1,0 +1,37 @@
+[
+{
+  "question": "Frage 1",
+  "options": [
+    "Frage 1 Option1",
+    "Frage 1 Option2",
+    "Frage 1 Option3",
+    "Frage 1 Option4"
+  ],
+  "correctAnswer": "Frage 1 Option1",
+  "quelle": "www.google.de"
+},
+{
+  "question": "Frage 2",
+  "options": [
+    "Frage 2 Option1",
+    "Frage 2 Option2",
+    "Frage 2 Option3",
+    "Frage 2 Option4"
+  ],
+  "correctAnswer": "Frage 2 Option1",
+  "quelle": "www.google.de"
+},
+{
+  "question": "Frage 3",
+  "options": [
+    "Frage 3 Option1",
+    "Frage 3 Option2",
+    "Frage 3 Option3",
+    "Frage 3 Option4"
+  ],
+  "correctAnswer": "Frage 3 Option1",
+  "quelle": "www.google.de"
+}
+
+  ]
+  
