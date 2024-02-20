@@ -1,0 +1,59 @@
+[
+{
+  "question": "Was versteht man unter einem Projekt?",
+  "options": [
+    "Was versteht man unter einem Projekt? Option1",
+    "Was versteht man unter einem Projekt? Option2",
+    "Was versteht man unter einem Projekt? Option3",
+    "Was versteht man unter einem Projekt? Option4"
+  ],
+  "correctAnswer": "Was versteht man unter einem Projekt? Ein Projekt ist ein zeitlich begrenztes Einzelvorhaben mit einem definierbaren Anfang und Ende, das sich durch die Einzigartigkeit der Bedingungen auszeichnet.",
+  "quelle": "www.google.de"
+},
+{
+  "question": "Als Projekt wird jedes ... mit einem definierbaren Anfang und Ende bezeichnet",
+  "options": [
+    "Als Projekt wird jedes ... mit einem definierbaren Anfang und Ende bezeichnet. Option1",
+    "Als Projekt wird jedes ... mit einem definierbaren Anfang und Ende bezeichnet. Option2",
+    "Als Projekt wird jedes ... mit einem definierbaren Anfang und Ende bezeichnet. Option3",
+    "Als Projekt wird jedes ... mit einem definierbaren Anfang und Ende bezeichnet. Option4"
+  ],
+  "correctAnswer": "Als Projekt wird jedes ... mit einem definierbaren Anfang und Ende bezeichnet. Einzelvorhaben",
+  "quelle": "www.google.de"
+},
+{
+  "question": "Welche typischen Begrenzungen gibt es bei einem Projekt?",
+  "options": [
+    "Welche typischen Begrenzungen gibt es bei einem Projekt? Option1",
+    "Welche typischen Begrenzungen gibt es bei einem Projekt? Option2",
+    "Welche typischen Begrenzungen gibt es bei einem Projekt? Option3",
+    "Welche typischen Begrenzungen gibt es bei einem Projekt? Option4"
+  ],
+  "correctAnswer": "Welche typischen Begrenzungen gibt es bei einem Projekt? Typische Begrenzungen bei Projekten sind Budget, Zeit und Ressourcen.",
+  "quelle": "www.google.de"
+},
+  {
+  "question": "Was zeichnet Projekte im Vergleich zu Routineaufgaben aus?",
+  "options": [
+    "Was zeichnet Projekte im Vergleich zu Routineaufgaben aus? Option1",
+    "Was zeichnet Projekte im Vergleich zu Routineaufgaben aus? Option2",
+    "Was zeichnet Projekte im Vergleich zu Routineaufgaben aus? Option3",
+    "Was zeichnet Projekte im Vergleich zu Routineaufgaben aus? Option4"
+  ],
+  "correctAnswer": "Was zeichnet Projekte im Vergleich zu Routineaufgaben aus? Im Gegensatz zu routinemäßigen Aufgaben zeichnen sich Projekte durch Unwägbarkeiten und Einmaligkeit der Bedingungen aus.",
+  "quelle": "www.google.de"
+},
+  {
+  "question": "Was versteht man unter dem primären Projektziel??",
+  "options": [
+    "Was versteht man unter dem primären Projektziel? Option1",
+    "Was versteht man unter dem primären Projektziel? Option2",
+    "Was versteht man unter dem primären Projektziel? Option3",
+    "Was versteht man unter dem primären Projektziel? Option4"
+  ],
+  "correctAnswer": "Was versteht man unter dem primären Projektziel? Das übergeordnete Ziel, das der Sinn und Zweck des Projekts ist.",
+  "quelle": "www.google.de"
+}
+
+  ]
+  
