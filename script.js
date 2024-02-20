@@ -1,3 +1,26 @@
+// Progress-Bar
+const progress = document.getElementById("progress-actual");
+let progressPercent = 0;
+
+//Correct-PopUp
+const correctPopup = document.getElementById("correct-pop-up");
+
+//False-Popup
+const falsePopup = document.getElementById("false-pop-up");
+const questionContainer = document.getElementById("question-container");
+
+//to Close False Popup
+function closePopup() {
+  falsePopup.style.visibility = "hidden";
+  questionContainer.style.visibility = "visible";
+}
+
+//radio
+const radio = document.getElementsByClassName("radio");
+
+//Richtige Antwort
+const popupRightAnswer = document.getElementById("false-p");
+
 var questions;
 var askedQuestions = [];
 let points = 0;
@@ -6,23 +29,33 @@ fetch("fragen.json")
   .then((response) => response.json())
   .then((data) => {
     questions = data;
-    showQuestion();
+    shuffleQuestions();
   })
   .catch((error) => console.error("Error fetching questions:", error));
 
 var currentQuestionIndex = 0;
 var selectedAnswer = null;
 
+function shuffleQuestions() {
+  askedQuestions = []; // Zurücksetzen der gestellten Fragen beim Mischen
+  questions = shuffleArray(questions);
+  currentQuestionIndex = 0;
+  showQuestion();
+}
+
 function showQuestion() {
   if (currentQuestionIndex < questions.length) {
+    //später nur 40 Fragen
     var currentQuestion = questions[currentQuestionIndex];
     document.getElementById("question").innerText = currentQuestion.question;
     document.getElementById("source").innerText = currentQuestion.quelle;
-
+    progressPercent = progressPercent + 4;
+    console.log(progressPercent);
+    progress.style.width = progressPercent + "%";
     var optionsHtml = "";
     for (var i = 0; i < currentQuestion.options.length; i++) {
       optionsHtml +=
-        '<input type="radio" name="answer" value="' +
+        '<input class="radio" type="radio" name="answer" value="' +
         currentQuestion.options[i] +
         '" onclick="selectAnswer(this)">  ' +
         currentQuestion.options[i] +
@@ -32,13 +65,6 @@ function showQuestion() {
   } else {
     alert("Quiz beendet!");
   }
-}
-
-function shuffleQuestions() {
-  askedQuestions = []; // Zurücksetzen der gestellten Fragen beim Mischen
-  questions = shuffleArray(questions);
-  currentQuestionIndex = 0;
-  showQuestion();
 }
 
 function shuffleArray(array) {
@@ -59,13 +85,25 @@ function checkAnswer() {
   if (selectedAnswer !== null) {
     var currentQuestion = questions[currentQuestionIndex];
     if (selectedAnswer === currentQuestion.correctAnswer) {
-      alert("Richtig!");
+      // alert("Richtig!");
+      correctPopup.style.visibility = "visible"; //macht den Popup div visible
+      setTimeout(() => {
+        //schaltet den Popup div in eine sekunde aus
+        correctPopup.style.visibility = "hidden";
+      }, 1000);
+
       points++;
       document.getElementById("points").innerText = "Punktzahl: " + points;
     } else {
-      alert(
-        "Falsch. Die richtige Antwort ist: " + currentQuestion.correctAnswer
-      );
+      //Wenn Antwort Falsch ist
+      // alert(
+      //   "Falsch. Die richtige Antwort ist: " + currentQuestion.correctAnswer
+      // );
+      falsePopup.style.visibility = "visible";
+      //questionContainer.style.visibility = "hidden";
+      questionContainer.style.visibility = "hidden";
+      popupRightAnswer.textContent =
+        "Die richtige Antwort ist: " + currentQuestion.correctAnswer;
     }
 
     askedQuestions.push(currentQuestion); // Füge die gestellte Frage zum Array hinzu
@@ -85,4 +123,10 @@ function checkAnswer() {
   }
 }
 
+// if ((falsePopup.style.visibility = "visible")) {
+//   questionContainer.style.visibility = "hidden";
+// }
+
+//if (falsePopup.style.visibility == "hidden") {
 showQuestion();
+//}
