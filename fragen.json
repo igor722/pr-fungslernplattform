@@ -1,59 +1,1621 @@
 [
-{
-  "question": "Frage 1",
-  "options": [
-    "Frage 1 Option1",
-    "Frage 1 Option2",
-    "Frage 1 Option3",
-    "Frage 1 Option4"
-  ],
-  "correctAnswer": "Frage 1 Option1",
-  "quelle": "www.google.de"
-},
-{
-  "question": "Frage 2",
-  "options": [
-    "Frage 2 Option1",
-    "Frage 2 Option2",
-    "Frage 2 Option3",
-    "Frage 2 Option4"
-  ],
-  "correctAnswer": "Frage 2 Option1",
-  "quelle": "www.google.de"
-},
-{
-  "question": "Frage 3",
-  "options": [
-    "Frage 3 Option1",
-    "Frage 3 Option2",
-    "Frage 3 Option3",
-    "Frage 3 Option4"
-  ],
-  "correctAnswer": "Frage 3 Option1",
-  "quelle": "www.google.de"
-},
   {
-  "question": "Frage 4",
-  "options": [
-    "Frage 4 Option1",
-    "Frage 4 Option2",
-    "Frage 4 Option3",
-    "Frage 4 Option4"
-  ],
-  "correctAnswer": "Frage 4 Option1",
-  "quelle": "www.google.de"
-},
+    "question": "Was versteht man unter einem Projekt?",
+    "options": [
+      "Ein Projekt ist ein zeitlich begrenztes Einzelvorhaben mit einem definierbaren Anfang und Ende, das sich durch die Einzigartigkeit der Bedingungen auszeichnet.",
+      "Ein Projekt ist eine langfristige Unternehmensstrategie zur Umsatzsteigerung.",
+      "Ein Projekt ist eine fortlaufende Geschäftstätigkeit ohne festgelegtes Ende.",
+      "Ein Projekt ist ein kurzfristiges Ziel innerhalb eines Unternehmens."
+    ],
+    "correctAnswer": "Ein Projekt ist ein zeitlich begrenztes Einzelvorhaben mit einem definierbaren Anfang und Ende, das sich durch die Einzigartigkeit der Bedingungen auszeichnet.",
+    "quelle": "www.google.de"
+  },
   {
-  "question": "Frage 4",
-  "options": [
-    "Frage 4 Option1",
-    "Frage 4 Option2",
-    "Frage 4 Option3",
-    "Frage 4 Option4"
-  ],
-  "correctAnswer": "Frage 4 Option1",
-  "quelle": "www.google.de"
-}
-
-  ]
-  
+    "question": "Als Projekt wird jedes ... mit einem definierbaren Anfang und Ende bezeichnet",
+    "options": [
+      "Einzelvorhaben",
+      "Routineaufgabe",
+      "Langfristige Strategie",
+      "Tagesgeschäft"
+    ],
+    "correctAnswer": "Einzelvorhaben",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche typischen Begrenzungen gibt es bei einem Projekt?",
+    "options": [
+      "Budget, Zeit und Ressourcen",
+      "Unbegrenzte Mittel und Ressourcen",
+      "Beliebige Zeitspanne und Kosten",
+      "Keine Begrenzungen"
+    ],
+    "correctAnswer": "Budget, Zeit und Ressourcen",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was zeichnet Projekte im Vergleich zu Routineaufgaben aus?",
+    "options": [
+      "Unwägbarkeiten und Einmaligkeit der Bedingungen",
+      "Routine und Langeweile",
+      "Klare und vorhersehbare Abläufe",
+      "Ständige Veränderungen und Flexibilität"
+    ],
+    "correctAnswer": "Unwägbarkeiten und Einmaligkeit der Bedingungen",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter dem primären Projektziel?",
+    "options": [
+      "Das übergeordnete Ziel, das der Sinn und Zweck des Projekts ist.",
+      "Ein kleines, unwichtiges Ziel innerhalb des Projekts.",
+      "Ein kurzfristiges Ziel zur Motivation der Teammitglieder.",
+      "Ein sekundäres Ziel, das später hinzugefügt wird."
+    ],
+    "correctAnswer": "Das übergeordnete Ziel, das der Sinn und Zweck des Projekts ist.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter den sekundären Projektzielen?",
+    "options": [
+      "Hauptziele des Projekts",
+      "Untergeordnete Teilziele, die das Erreichen des Primärziels unterstützen",
+      "Zwischenziele des Projekts",
+      "Andere Ziele im Projekt"
+    ],
+    "correctAnswer": "Untergeordnete Teilziele, die das Erreichen des Primärziels unterstützen",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Warum sind Projektziele wichtig?",
+    "options": [
+      "Ohne Ziel fehlt die Ausrichtung, ohne untergeordnete Ziele die Messbarkeit des Projekterfolgs",
+      "Es gibt keine spezifischen Gründe",
+      "Projektziele sind nicht wichtig",
+      "Andere Gründe für die Wichtigkeit von Projektzielen"
+    ],
+    "correctAnswer": "Ohne Ziel fehlt die Ausrichtung, ohne untergeordnete Ziele die Messbarkeit des Projekterfolgs",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist Projektmanagement?",
+    "options": [
+      "Die Analyse, Planung, Durchführung und Bewertung von Projekten",
+      "Nur die Planung von Projekten",
+      "Die Durchführung von Projekten",
+      "Andere Definition von Projektmanagement"
+    ],
+    "correctAnswer": "Die Analyse, Planung, Durchführung und Bewertung von Projekten",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Warum brauchen wir Projektmanagement?",
+    "options": [
+      "Projektmanagement sichert den Projekterfolg innerhalb von Zeit, Kosten und Qualität",
+      "Projektmanagement ist überflüssig",
+      "Projektmanagement erschwert den Erfolg von Projekten",
+      "Andere Gründe für die Notwendigkeit von Projektmanagement"
+    ],
+    "correctAnswer": "Projektmanagement sichert den Projekterfolg innerhalb von Zeit, Kosten und Qualität",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wie sollten Ziele am besten definiert werden?",
+    "options": [
+      "Durch die SMART-Methode",
+      "Durch Intuition",
+      "Durch Glücksspiel",
+      "Andere Methoden zur Zieldefinition"
+    ],
+    "correctAnswer": "Durch die SMART-Methode",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Für was steht das S?",
+    "options": [
+      "S - Spezifisch (konkret und detailliert formuliert)",
+      "S - Standardisiert (nach festen Vorgaben)",
+      "S - Subjektiv (abhängig von individuellen Einschätzungen)",
+      "S - Sonstiges"
+    ],
+    "correctAnswer": "S - Spezifisch (konkret und detailliert formuliert)",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Für was steht das M?",
+    "options": [
+      "M - Messbar (anhand von Indikatoren überprüfbar)",
+      "M - Mangelhaft (nicht ausreichend)",
+      "M - Mehrwert (zusätzlicher Nutzen)",
+      "M - Monoton (eintönig)"
+    ],
+    "correctAnswer": "M - Messbar (anhand von Indikatoren überprüfbar)",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Für was steht das A?",
+    "options": [
+      "A - Attraktiv (motivierend und anspruchsvoll)",
+      "A - Abstrakt (nicht konkret)",
+      "A - Achtlos (unachtsam)",
+      "A - Akkurat (genau und präzise)"
+    ],
+    "correctAnswer": "A - Attraktiv (motivierend und anspruchsvoll)",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Für was steht das R?",
+    "options": [
+      "R - Realistisch (machbar und angemessen)",
+      "R - Risikoreich (gefährlich)",
+      "R - Rational (nachvollziehbar)",
+      "R - Reaktionsfähig (schnell handlungsfähig)"
+    ],
+    "correctAnswer": "R - Realistisch (machbar und angemessen)",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Für was steht das T?",
+    "options": [
+      "T - Terminiert (mit klarem Zeitrahmen)",
+      "T - Tolerant (nachsichtig und offen)",
+      "T - Transparent (klar und eindeutig)",
+      "T - Teamorientiert (zusammenarbeitend)"
+    ],
+    "correctAnswer": "T - Terminiert (mit klarem Zeitrahmen)",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was passiert in der Initialisierungsphase / im Projektstart?",
+    "options": [
+      "Definition der Projektziele, des Umfangs und des Zwecks.",
+      "Entwicklung des Projektplans und der Zeitlinie.",
+      "Ausführung der Projektarbeiten.",
+      "Überprüfung der Projektergebnisse."
+    ],
+    "correctAnswer": "Definition der Projektziele, des Umfangs und des Zwecks.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Inhalte hat die Planungsphase?",
+    "options": [
+      "Erstellung des Projektplans, einschließlich Zeitplan, Budget und Ressourcenmanagement.",
+      "Durchführung der Projektarbeit gemäß den Anforderungen.",
+      "Überwachung und Kontrolle des Projektfortschritts.",
+      "Abschluss des Projekts und Abnahme durch den Kunden."
+    ],
+    "correctAnswer": "Erstellung des Projektplans, einschließlich Zeitplan, Budget und Ressourcenmanagement.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist die Ausführungsphase in einem Projekt?",
+    "options": [
+      "Die Phase, in der der Projektplan entwickelt wird.",
+      "Die Phase, in der die eigentliche Arbeit am Projekt durchgeführt wird.",
+      "Die Phase, in der der Projektabschluss erfolgt.",
+      "Die Phase, in der das Projekt bewertet wird."
+    ],
+    "correctAnswer": "Die Phase, in der die eigentliche Arbeit am Projekt durchgeführt wird.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist die Überwachungs- und Kontrollphase in einem Projekt?",
+    "options": [
+      "Die Phase, in der der Projektplan entwickelt wird.",
+      "Die Phase, in der die Projektarbeiten ausgeführt werden.",
+      "Die Phase, in der das Projektergebnis überprüft wird, um sicherzustellen, dass alles nach Plan verläuft.",
+      "Die Phase, in der das Projekt abgeschlossen wird."
+    ],
+    "correctAnswer": "Die Phase, in der das Projektergebnis überprüft wird, um sicherzustellen, dass alles nach Plan verläuft.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Schritte gehören zum Projektabschluss?",
+    "options": [
+      "Entwicklung des Projektplans und der Zeitlinie.",
+      "Abschlussbericht und Abnahme durch den Kunden.",
+      "Planung und Vorbereitung für das Projekt.",
+      "Überprüfung der Projektergebnisse."
+    ],
+    "correctAnswer": "Abschlussbericht und Abnahme durch den Kunden.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Nenne zwei wichtige Instrumente für die Projektplanung",
+    "options": [
+      "Lastenheft und Pflichtenheft",
+      "Projekttagebuch und Projektstatusbericht",
+      "Projektrisikoregister und Projektkommunikationsplan",
+      "Projektstrukturplan und Gantt-Diagramm"
+    ],
+    "correctAnswer": "Lastenheft und Pflichtenheft",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist ein Lastenheft?",
+    "options": [
+      "Ein Lastenheft beschreibt die Anforderungen des Auftraggebers an ein Projekt. Es definiert die Ziele, notwendigen Ergebnisse und Rahmenbedingungen.",
+      "Ein Lastenheft ist ein Dokument, das den Projektabschluss dokumentiert und bewertet.",
+      "Ein Lastenheft ist ein Werkzeug zur Überwachung und Kontrolle des Projektfortschritts.",
+      "Ein Lastenheft ist ein Planungsformat für die Ressourcenverwaltung in Projekten."
+    ],
+    "correctAnswer": "Ein Lastenheft beschreibt die Anforderungen des Auftraggebers an ein Projekt. Es definiert die Ziele, notwendigen Ergebnisse und Rahmenbedingungen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist ein Pflichtenheft?",
+    "options": [
+      "Ein Pflichtenheft konkretisiert die Vorgaben aus dem Lastenheft. Es beschreibt detailliert die zu erbringenden Leistungen und Vorgehensweisen.",
+      "Ein Pflichtenheft ist ein Dokument, das den Projektabschluss dokumentiert und bewertet.",
+      "Ein Pflichtenheft ist ein Werkzeug zur Überwachung und Kontrolle des Projektfortschritts.",
+      "Ein Pflichtenheft ist ein Planungsformat für die Ressourcenverwaltung in Projekten."
+    ],
+    "correctAnswer": "Ein Pflichtenheft konkretisiert die Vorgaben aus dem Lastenheft. Es beschreibt detailliert die zu erbringenden Leistungen und Vorgehensweisen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Unterschiede gibt es zwischen Lasten- und Pflichtenheft?",
+    "options": [
+      "Das Lastenheft formuliert die allgemeinen Projektziele. Das Pflichtenheft spezifiziert die Umsetzung durch den Auftragnehmer.",
+      "Das Lastenheft und das Pflichtenheft sind synonyme Begriffe.",
+      "Das Lastenheft beschreibt die Projektumsetzung. Das Pflichtenheft definiert die Projektziele.",
+      "Das Lastenheft definiert die Kosten des Projekts. Das Pflichtenheft plant die Ressourcenverteilung."
+    ],
+    "correctAnswer": "Das Lastenheft formuliert die allgemeinen Projektziele. Das Pflichtenheft spezifiziert die Umsetzung durch den Auftragnehmer.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wozu dienen Lasten- und Pflichtenheft?",
+    "options": [
+      "Sie schaffen Klarheit über Projektumfang und -ziele zwischen Kunde und Auftragnehmer.",
+      "Sie dienen als Werkzeuge zur Analyse von Projektrisiken.",
+      "Sie sind ausschließlich für die Projektsteuerung durch das Projektmanagementteam bestimmt.",
+      "Sie sind verbindliche Dokumente für die Projektfinanzierung."
+    ],
+    "correctAnswer": "Sie schaffen Klarheit über Projektumfang und -ziele zwischen Kunde und Auftragnehmer.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist ein Projektplan?",
+    "options": [
+      "Ein Projektplan ist ein formelles Dokument, das den gesamten Verlauf eines Projekts darstellt, einschließlich Zeitplan, Budget, Ressourcen, Meilensteine und Risikomanagement.",
+      "Ein Projektplan ist ein Instrument zur Mitarbeitermotivation und Teambildung in einem Projekt.",
+      "Ein Projektplan ist ein Dokument, das nur den Zeitplan eines Projekts enthält.",
+      "Ein Projektplan ist ein Werkzeug zur Qualitätskontrolle in einem Projekt."
+    ],
+    "correctAnswer": "Ein Projektplan ist ein formelles Dokument, das den gesamten Verlauf eines Projekts darstellt, einschließlich Zeitplan, Budget, Ressourcen, Meilensteine und Risikomanagement.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was sind Meilensteine in einem Projekt?",
+    "options": [
+      "Meilensteine sind spezifische Punkte im Projektzeitplan, die wichtige Ereignisse oder Phasen markieren. Sie helfen bei der Überwachung des Fortschritts und der Einhaltung des Zeitplans.",
+      "Meilensteine sind Projektteams, die für die Überwachung des Projektfortschritts verantwortlich sind.",
+      "Meilensteine sind Budgetanpassungen in einem Projekt.",
+      "Meilensteine sind spezielle Projektanforderungen, die nachträglich definiert werden."
+    ],
+    "correctAnswer": "Meilensteine sind spezifische Punkte im Projektzeitplan, die wichtige Ereignisse oder Phasen markieren. Sie helfen bei der Überwachung des Fortschritts und der Einhaltung des Zeitplans.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist die Risikoanalyse in einem Projekt?",
+    "options": [
+      "Die Risikoanalyse ist der Prozess der Identifizierung, Bewertung und Priorisierung von Risiken in einem Projekt, um deren potenzielle Auswirkungen zu verstehen und geeignete Maßnahmen zur Risikominderung zu planen.",
+      "Die Risikoanalyse ist die Dokumentation von vergangenen Projektrisiken.",
+      "Die Risikoanalyse ist eine Methode zur Kostenkalkulation in einem Projekt.",
+      "Die Risikoanalyse ist ein Werkzeug zur Erstellung von Projektberichten."
+    ],
+    "correctAnswer": "Die Risikoanalyse ist der Prozess der Identifizierung, Bewertung und Priorisierung von Risiken in einem Projekt, um deren potenzielle Auswirkungen zu verstehen und geeignete Maßnahmen zur Risikominderung zu planen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was sind Standards und Normen im Projektmanagement?",
+    "options": [
+      "Standards und Normen sind festgelegte Richtlinien und Best Practices, die im Projektmanagement befolgt werden sollen. Sie helfen, die Qualität und Konsistenz in der Projektdurchführung sicherzustellen.",
+      "Standards und Normen sind spezifische Projektziele, die im Projektverlauf definiert werden.",
+      "Standards und Normen sind spezielle Schulungen für Projektmanager.",
+      "Standards und Normen sind vertragliche Vereinbarungen zwischen Kunden und Lieferanten."
+    ],
+    "correctAnswer": "Standards und Normen sind festgelegte Richtlinien und Best Practices, die im Projektmanagement befolgt werden sollen. Sie helfen, die Qualität und Konsistenz in der Projektdurchführung sicherzustellen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was beschreibt das Projektmanagement-Dreieck?",
+    "options": [
+      "Den Zielkonflikt zwischen Zeit, Kosten und Qualität bei Projekten.",
+      "Die drei Hauptphasen eines Projekts.",
+      "Die Beziehung zwischen Projektteam und Stakeholdern.",
+      "Die Bedeutung von Projektmanagement-Software für Projekte."
+    ],
+    "correctAnswer": "Den Zielkonflikt zwischen Zeit, Kosten und Qualität bei Projekten.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist eine Projektwürdigkeitsprüfung?",
+    "options": [
+      "Eine Analyse, ob ein Vorhaben als Projekt durchgeführt werden sollte oder nicht.",
+      "Eine Überprüfung der rechtlichen Voraussetzungen für ein Projekt.",
+      "Eine Bewertung des Projektteams vor Projektbeginn.",
+      "Eine Analyse der Kundenanforderungen im Projekt."
+    ],
+    "correctAnswer": "Eine Analyse, ob ein Vorhaben als Projekt durchgeführt werden sollte oder nicht.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wozu dient die Projektwürdigkeitsprüfung?",
+    "options": [
+      "Um Vor- und Nachteile einer Projektorganisation gegenüber einer Linienorganisation abzuwägen.",
+      "Um die Produktqualität in einem Projekt sicherzustellen.",
+      "Um den Projektumfang klar zu definieren.",
+      "Um die Kosten-Nutzen-Analyse eines Projekts durchzuführen."
+    ],
+    "correctAnswer": "Um Vor- und Nachteile einer Projektorganisation gegenüber einer Linienorganisation abzuwägen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Nach welchen Kriterien erfolgt die Prüfung?",
+    "options": [
+      "Einmaligkeit der Aufgabe, Komplexität, strategische Bedeutung, Risiko, Kosten-Nutzen-Verhältnis.",
+      "Zeitaufwand, technische Ausstattung, Projektteam, Budget, Projektziel.",
+      "Rechtliche Anforderungen, Kundenwünsche, Lieferantenverträge, Produktqualität, Projektstandards.",
+      "Risikobewertung, Projektfortschritt, Stakeholder-Zufriedenheit, Projektkommunikation, Qualitätssicherung."
+    ],
+    "correctAnswer": "Einmaligkeit der Aufgabe, Komplexität, strategische Bedeutung, Risiko, Kosten-Nutzen-Verhältnis.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist eine Stakeholderanalyse?",
+    "options": [
+      "Die Identifikation und Klassifizierung aller Projektbeteiligten und Betroffenen.",
+      "Eine Analyse des Projektbudgets.",
+      "Eine Bewertung der Projektziele.",
+      "Eine Prüfung der rechtlichen Rahmenbedingungen für das Projekt."
+    ],
+    "correctAnswer": "Die Identifikation und Klassifizierung aller Projektbeteiligten und Betroffenen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wer sind die Stakeholder eines Projekts?",
+    "options": [
+      "Alle Personen und Gruppen, die von einem Projekt betroffen sind.",
+      "Nur die Projektmanager und das Projektteam.",
+      "Nur die Kunden, die das Projekt in Auftrag gegeben haben.",
+      "Nur die Lieferanten, die am Projekt beteiligt sind."
+    ],
+    "correctAnswer": "Alle Personen und Gruppen, die von einem Projekt betroffen sind.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Stakeholdertypen gibt es?",
+    "options": [
+      "Interne und externe, primäre und sekundäre Stakeholder.",
+      "Aktive und passive, direkte und indirekte Stakeholder.",
+      "Technische und nicht-technische, lokale und globale Stakeholder.",
+      "Administrative und operative, strategische und taktische Stakeholder."
+    ],
+    "correctAnswer": "Interne und externe, primäre und sekundäre Stakeholder.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wonach werden Stakeholder klassifiziert?",
+    "options": [
+      "Nach ihrem Einfluss auf und ihrer Beeinflussbarkeit durch das Projekt.",
+      "Nach ihrer Position im Unternehmen.",
+      "Nach ihrem Fachgebiet und ihrer Expertise.",
+      "Nach ihrer Erfahrung im Projektmanagement."
+    ],
+    "correctAnswer": "Nach ihrem Einfluss auf und ihrer Beeinflussbarkeit durch das Projekt.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wozu dient die Stakeholderanalyse?",
+    "options": [
+      "Um die Interessen der Betroffenen zu berücksichtigen und das Projekt erfolgreich zu steuern.",
+      "Um die Ressourcen des Projekts zu verwalten.",
+      "Um die Projektziele zu überprüfen und anzupassen.",
+      "Um die Projektumgebung zu dokumentieren und zu analysieren."
+    ],
+    "correctAnswer": "Um die Interessen der Betroffenen zu berücksichtigen und das Projekt erfolgreich zu steuern.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wozu dient die Risikoanalyse?",
+    "options": [
+      "Zur Identifikation, Bewertung und Reaktion auf Projektrisiken.",
+      "Zur Bestimmung des Projektumfangs und der Projektziele.",
+      "Zur Festlegung der Projektbudgets und Ressourcen.",
+      "Zur Analyse der Projektstruktur und Organisation."
+    ],
+    "correctAnswer": "Zur Identifikation, Bewertung und Reaktion auf Projektrisiken.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wie geht man bei der Risikoanalyse vor?",
+    "options": [
+      "Risiken identifizieren, Auswirkungen erschließen, Schadensausmaß und Eintrittswahrscheinlichkeit einschätzen, Maßnahmen festlegen.",
+      "Die Risiken ignorieren und das Projekt wie geplant durchführen.",
+      "Nur die wahrscheinlichsten Risiken analysieren und darauf reagieren.",
+      "Die Risikoanalyse an externe Experten auslagern."
+    ],
+    "correctAnswer": "Risiken identifizieren, Auswirkungen erschließen, Schadensausmaß und Eintrittswahrscheinlichkeit einschätzen, Maßnahmen festlegen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Arten von Risiken gibt es?",
+    "options": [
+      "Terminrisiken, Kostenrisiken, Qualitätsrisiken, Leistungsrisiken, Organisationsrisiken etc.",
+      "Technische Risiken, Managementrisiken, Finanzrisiken, Marketingrisiken, Personalrisiken etc.",
+      "Interne Risiken, externe Risiken, bekannte Risiken, unbekannte Risiken, schwerwiegende Risiken etc.",
+      "Strategische Risiken, taktische Risiken, operative Risiken, finanzielle Risiken, rechtliche Risiken etc."
+    ],
+    "correctAnswer": "Terminrisiken, Kostenrisiken, Qualitätsrisiken, Leistungsrisiken, Organisationsrisiken etc.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wie kann man Risiken bewerten?",
+    "options": [
+      "Anhand einer Risikomatrix mit Eintrittswahrscheinlichkeit und Schadensausmaß.",
+      "Durch Erfahrung und Intuition.",
+      "Durch Ziehen von Losen.",
+      "Durch Vertrauen auf externe Berater."
+    ],
+    "correctAnswer": "Anhand einer Risikomatrix mit Eintrittswahrscheinlichkeit und Schadensausmaß.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wozu dient Ressourcenmanagement?",
+    "options": [
+      "Zur Planung, Beschaffung und Steuerung aller benötigten Ressourcen.",
+      "Zur Identifikation von Projektzielen.",
+      "Zur Risikobewertung und -bewältigung.",
+      "Zur Analyse von Stakeholder-Interessen."
+    ],
+    "correctAnswer": "Zur Planung, Beschaffung und Steuerung aller benötigten Ressourcen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Ressourcenarten gibt es?",
+    "options": [
+      "Personal, Sachmittel, Anlagen, Finanzmittel.",
+      "Technische, administrative, rechtliche, kulturelle Ressourcen.",
+      "Primäre, sekundäre, tertiäre, quartäre Ressourcen.",
+      "Interne, externe, zentrale, dezentrale Ressourcen."
+    ],
+    "correctAnswer": "Personal, Sachmittel, Anlagen, Finanzmittel.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was umfasst die Ressourcenplanung?",
+    "options": [
+      "Bedarfsanalyse, Budgetierung, Kapazitätsplanung.",
+      "Risikobewertung, Risikominderung, Risikovermeidung.",
+      "Stakeholder-Analyse, Stakeholder-Management, Stakeholder-Kommunikation.",
+      "Projektstrukturplanung, Arbeitspaketdefinition, Arbeitspaketzuweisung."
+    ],
+    "correctAnswer": "Bedarfsanalyse, Budgetierung, Kapazitätsplanung.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist eine Nutzwertanalyse?",
+    "options": [
+      "Ein Verfahren zur Bewertung und Auswahl von Handlungsalternativen nach rationalen Kriterien.",
+      "Eine Methode zur Schätzung von Projektkosten.",
+      "Ein Instrument zur Messung des Projektfortschritts.",
+      "Ein Werkzeug zur Identifikation von Projektzielen."
+    ],
+    "correctAnswer": "Ein Verfahren zur Bewertung und Auswahl von Handlungsalternativen nach rationalen Kriterien.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wozu dient die Nutzwertanalyse?",
+    "options": [
+      "Um die beste Alternative für ein Vorhaben objektiv zu ermitteln.",
+      "Um den Kundenbedarf zu analysieren.",
+      "Um die Projektziele zu formulieren.",
+      "Um den Projekterfolg zu messen."
+    ],
+    "correctAnswer": "Um die beste Alternative für ein Vorhaben objektiv zu ermitteln.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wie funktioniert die Nutzwertanalyse?",
+    "options": [
+      "Bewertungskriterien und Gewichtung definieren, Alternativen bewerten, Ergebnis auswerten.",
+      "Durch Erfahrung und Intuition.",
+      "Durch Ziehen von Losen.",
+      "Durch Vertrauen auf externe Berater."
+    ],
+    "correctAnswer": "Bewertungskriterien und Gewichtung definieren, Alternativen bewerten, Ergebnis auswerten.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie stellt man sicher, dass die Kundenkommunikation professionell und kundenzufriedenstellend abläuft?",
+    "options": [
+      "Durch regelmäßige Schulungen der Mitarbeiter, klare Kommunikationsrichtlinien, Qualitätssicherung der Kommunikation und zeitnahes Feedback der Kunden.",
+      "Durch schnelle Reaktionen auf Kundenanfragen, auch wenn die Lösung des Problems Zeit braucht.",
+      "Durch Ignorieren von Kundenfeedback, um interne Abläufe nicht zu stören.",
+      "Durch Verweigerung von Kundenanfragen, die nicht im Verantwortungsbereich liegen."
+    ],
+    "correctAnswer": "Durch regelmäßige Schulungen der Mitarbeiter, klare Kommunikationsrichtlinien, Qualitätssicherung der Kommunikation und zeitnahes Feedback der Kunden.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Aspekte sollte ein gutes Fehlermanagement berücksichtigen?",
+    "options": [
+      "Schnelle und genaue Fehleridentifikation, systematische Fehleranalyse, effektive Fehlerbehebung und vorbeugende Maßnahmen zur Fehlervermeidung.",
+      "Ignorieren von Fehlern, um die Teammotivation nicht zu beeinträchtigen.",
+      "Vertuschung von Fehlern, um den Ruf des Unternehmens zu schützen.",
+      "Übertragung von Verantwortlichkeiten auf andere Abteilungen, um Konflikte zu vermeiden."
+    ],
+    "correctAnswer": "Schnelle und genaue Fehleridentifikation, systematische Fehleranalyse, effektive Fehlerbehebung und vorbeugende Maßnahmen zur Fehlervermeidung.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie kann man Fehler systematisch analysieren?",
+    "options": [
+      "Durch Erstellen eines Fehlerprotokolls, Reproduzieren des Fehlers, Bestimmen der Fehlerursache, Kategorisieren des Fehlertyps und Dokumentieren der Fehlerlösung.",
+      "Durch Ignorieren von Fehlern, um die Teammotivation nicht zu beeinträchtigen.",
+      "Durch Vertuschung von Fehlern, um den Ruf des Unternehmens zu schützen.",
+      "Durch Übertragung von Verantwortlichkeiten auf andere Abteilungen, um Konflikte zu vermeiden."
+    ],
+    "correctAnswer": "Durch Erstellen eines Fehlerprotokolls, Reproduzieren des Fehlers, Bestimmen der Fehlerursache, Kategorisieren des Fehlertyps und Dokumentieren der Fehlerlösung.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was gehört zu einem effektiven Störungsmanagement?",
+    "options": [
+      "Rasche Störungserkennung, genaue Analyse der Störungsursache, Behebung der Störung mit geringstmöglichen Ausfallzeiten und vorbeugende Maßnahmen.",
+      "Ignorieren von Störungen, um die Arbeitsabläufe nicht zu stören.",
+      "Verzögerung der Behebung von Störungen, um die Kosten niedrig zu halten.",
+      "Übertragung der Verantwortung für Störungen auf andere Abteilungen, um Konflikte zu vermeiden."
+    ],
+    "correctAnswer": "Rasche Störungserkennung, genaue Analyse der Störungsursache, Behebung der Störung mit geringstmöglichen Ausfallzeiten und vorbeugende Maßnahmen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie kann man Supportanfragen effizient bearbeiten?",
+    "options": [
+      "Durch ein Ticket-System mit Priorisierung, klare Zuständigkeiten, zeitnahe Reaktion und regelmäßiges Reporting.",
+      "Durch Verzögerung der Bearbeitung, um den Kunden zu motivieren, weniger Anfragen zu stellen.",
+      "Durch Ignorieren von Supportanfragen, die nicht dringend sind.",
+      "Durch Weiterleitung von Supportanfragen an andere Abteilungen, um die Verantwortung zu teilen."
+    ],
+    "correctAnswer": "Durch ein Ticket-System mit Priorisierung, klare Zuständigkeiten, zeitnahe Reaktion und regelmäßiges Reporting.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Informationen sollte ein Ticket beinhalten?",
+    "options": [
+      "Kunde, Kontaktdaten, Gerät, Fehlerbeschreibung, zeitlicher Verlauf, Priorität und aktueller Bearbeitungsstatus.",
+      "Nur den Namen des Kunden und eine kurze Beschreibung des Problems.",
+      "Nur die Priorität und den aktuellen Bearbeitungsstatus.",
+      "Nur die Kontaktdaten des Kunden und den zeitlichen Verlauf."
+    ],
+    "correctAnswer": "Kunde, Kontaktdaten, Gerät, Fehlerbeschreibung, zeitlicher Verlauf, Priorität und aktueller Bearbeitungsstatus.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was muss bei der Kundenkommunikation beachtet werden?",
+    "options": [
+      "Freundlichkeit, Klarheit, Verbindlichkeit, Lösungsorientierung und Dokumentation der Kommunikation.",
+      "Eile, Unklarheit, Unverbindlichkeit, Beschwerdeorientierung und Nicht-Dokumentation der Kommunikation.",
+      "Unfreundlichkeit, Unklarheit, Verbindlichkeit, Problemorientierung und Dokumentation der Kommunikation.",
+      "Freundlichkeit, Unklarheit, Unverbindlichkeit, Beschwerdeorientierung und Dokumentation der Kommunikation."
+    ],
+    "correctAnswer": "Freundlichkeit, Klarheit, Verbindlichkeit, Lösungsorientierung und Dokumentation der Kommunikation.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie lässt sich die Kundenzufriedenheit bei Störungen erhöhen?",
+    "options": [
+      "Durch schnelle Reaktionszeiten, regelmäßige Updates zum Bearbeitungsstatus, kompetente und freundliche Kommunikation und Angebot von Alternativen.",
+      "Durch verzögerte Reaktionszeiten, unregelmäßige Updates zum Bearbeitungsstatus, inkompetente und unfreundliche Kommunikation und keine Angebote von Alternativen.",
+      "Durch ignorierte Supportanfragen und fehlende Updates zum Bearbeitungsstatus.",
+      "Durch Verzögerung der Bearbeitung von Supportanfragen und keine Kommunikation mit dem Kunden."
+    ],
+    "correctAnswer": "Durch schnelle Reaktionszeiten, regelmäßige Updates zum Bearbeitungsstatus, kompetente und freundliche Kommunikation und Angebot von Alternativen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was gehört zu vorbeugenden Maßnahmen im Fehlermanagement?",
+    "options": [
+      "Regelmäßige Wartung, Monitoring kritischer Komponenten, Backup-Strategie, Ausfallsicherheit und Schulung der Mitarbeiter.",
+      "Keine vorbeugenden Maßnahmen, da Fehler unvermeidbar sind.",
+      "Zufällige Wartung, keine Überwachung kritischer Komponenten, keine Backup-Strategie, keine Ausfallsicherheit und keine Schulung der Mitarbeiter.",
+      "Unregelmäßige Wartung, keine Überwachung kritischer Komponenten, keine Backup-Strategie, keine Ausfallsicherheit und keine Schulung der Mitarbeiter."
+    ],
+    "correctAnswer": "Regelmäßige Wartung, Monitoring kritischer Komponenten, Backup-Strategie, Ausfallsicherheit und Schulung der Mitarbeiter.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie kann man Supportanfragen priorisieren?",
+    "options": [
+      "Anhand der kundenspezifischen SLAs, durch Einschätzung der Kritikalität und des zeitlichen Drucks und durch Abwägung der Ressourcen.",
+      "Ohne Berücksichtigung von SLAs, Kritikalität, zeitlichem Druck oder Ressourcen.",
+      "Nur anhand des zeitlichen Drucks.",
+      "Nur anhand der Verfügbarkeit von Ressourcen."
+    ],
+    "correctAnswer": "Anhand der kundenspezifischen SLAs, durch Einschätzung der Kritikalität und des zeitlichen Drucks und durch Abwägung der Ressourcen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was sollte im Störungsmanagement dokumentiert werden?",
+    "options": [
+      "Störungsmeldung, Systemkomponenten, Fehlersymptome, Chronologie, durchgeführte Analysen und Lösungsschritte.",
+      "Nur die Störungsmeldung und die Lösungsschritte.",
+      "Nur die Systemkomponenten und die Fehlersymptome.",
+      "Nur die Chronologie der Störung."
+    ],
+    "correctAnswer": "Störungsmeldung, Systemkomponenten, Fehlersymptome, Chronologie, durchgeführte Analysen und Lösungsschritte.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Kennzahlen eignen sich zur Qualitätssicherung der Kundenkommunikation?",
+    "options": [
+      "Reaktionszeiten, Lösungsquote, Kundenzufriedenheit, Beschwerdequote und Anzahl der Eskalationen.",
+      "Nur Reaktionszeiten und Kundenzufriedenheit.",
+      "Nur Lösungsquote und Beschwerdequote.",
+      "Nur Kundenzufriedenheit und Anzahl der Eskalationen."
+    ],
+    "correctAnswer": "Reaktionszeiten, Lösungsquote, Kundenzufriedenheit, Beschwerdequote und Anzahl der Eskalationen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie kann man ein Ticket-System optimal nutzen?",
+    "options": [
+      "Mit klarer Struktur, effizienten Workflows, nutzerfreundlicher Oberfläche, Statistikfunktion und Möglichkeit zur Integration.",
+      "Ohne klare Struktur, mit ineffizienten Workflows, unbenutzerfreundlicher Oberfläche, ohne Statistikfunktion und ohne Möglichkeit zur Integration.",
+      "Nur mit klaren Strukturen und ineffizienten Workflows.",
+      "Nur mit nutzerfreundlicher Oberfläche und Statistikfunktion."
+    ],
+    "correctAnswer": "Mit klarer Struktur, effizienten Workflows, nutzerfreundlicher Oberfläche, Statistikfunktion und Möglichkeit zur Integration.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was gehört zu einem strukturierten Fehlermanagement?",
+    "options": [
+      "Systematische Fehleridentifikation, -dokumentation und -analyse, klare Verantwortlichkeiten und regelmäßige Fehlerreviews.",
+      "Nur systematische Fehleridentifikation.",
+      "Nur klare Verantwortlichkeiten.",
+      "Nur regelmäßige Fehlerreviews."
+    ],
+    "correctAnswer": "Systematische Fehleridentifikation, -dokumentation und -analyse, klare Verantwortlichkeiten und regelmäßige Fehlerreviews.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie erfolgt ein strukturiertes Störungsmanagement?",
+    "options": [
+      "Störungsmeldung, -klassifizierung und -dokumentation, Ursachenanalyse, schrittweise Problembehebung und vorbeugende Maßnahmen.",
+      "Nur Störungsmeldung.",
+      "Nur Ursachenanalyse.",
+      "Nur vorbeugende Maßnahmen."
+    ],
+    "correctAnswer": "Störungsmeldung, -klassifizierung und -dokumentation, Ursachenanalyse, schrittweise Problembehebung und vorbeugende Maßnahmen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie kann die Effizienz bei der Bearbeitung von Supportanfragen gesteigert werden?",
+    "options": [
+      "Durch Wissensdatenbank, Prozessautomatisierung, Skill-based Routing und kontinuierliche Mitarbeiterqualifizierung.",
+      "Durch manuelle Bearbeitung, keine Automatisierung, zufällige Zuweisung von Anfragen und keine Mitarbeiterqualifizierung.",
+      "Durch begrenzten Zugriff auf Informationen, keine Automatisierung, zufällige Zuweisung von Anfragen und gelegentliche Mitarbeiterqualifizierung.",
+      "Durch begrenzten Zugriff auf Informationen, manuelle Bearbeitung, zufällige Zuweisung von Anfragen und keine Mitarbeiterqualifizierung."
+    ],
+    "correctAnswer": "Durch Wissensdatenbank, Prozessautomatisierung, Skill-based Routing und kontinuierliche Mitarbeiterqualifizierung.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Faktoren beeinflussen die Reaktionszeit bei Störungen?",
+    "options": [
+      "Verfügbarkeit kompetenter Mitarbeiter, Fernzugriffsmöglichkeiten, Ersatzteillager, Notfallhandbücher und Redundanzen.",
+      "Nur die Verfügbarkeit kompetenter Mitarbeiter.",
+      "Nur Fernzugriffsmöglichkeiten und Ersatzteillager.",
+      "Nur Notfallhandbücher und Redundanzen."
+    ],
+    "correctAnswer": "Verfügbarkeit kompetenter Mitarbeiter, Fernzugriffsmöglichkeiten, Ersatzteillager, Notfallhandbücher und Redundanzen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie lässt sich die Kundenzufriedenheit bei der Bearbeitung von Supportanfragen steigern?",
+    "options": [
+      "Durch schnelle Reaktion",
+      "Durch regelmäßige Statusupdates",
+      "Durch kompetente und freundliche Kommunikation",
+      "Durch aktives Eingehen auf Kundenwünsche"
+    ],
+    "correctAnswer": "Durch schnelle Reaktion, regelmäßige Statusupdates, kompetente und freundliche Kommunikation und aktives Eingehen auf Kundenwünsche.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was gehört zu einem guten Beschwerdemanagement?",
+    "options": [
+      "Wertschätzende Entgegennahme",
+      "Analyse der Beschwerdeursache",
+      "Zeitnahe und kundenorientierte Problemlösung",
+      "Feedbackschleife"
+    ],
+    "correctAnswer": "Wertschätzende Entgegennahme, Analyse der Beschwerdeursache, zeitnahe und kundenorientierte Problemlösung und Feedbackschleife.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Aspekte sind für ein professionelles Beschwerdemanagement wichtig?",
+    "options": [
+      "Aktives Zuhören",
+      "Einfühlungsvermögen",
+      "Lösungsfokus",
+      "Transparente Kommunikation",
+      "Zeitnahes Feedback"
+    ],
+    "correctAnswer": "Aktives Zuhören, Einfühlungsvermögen, Lösungsfokus, transparente Kommunikation und zeitnahes Feedback.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie kann man die Effizienz des Supports erhöhen?",
+    "options": [
+      "Wissensmanagement",
+      "Automatisierung einfacher Anfragen",
+      "Schulung der Mitarbeiter",
+      "Optimierung der Prozesse"
+    ],
+    "correctAnswer": "Durch Wissensmanagement, Automatisierung einfacher Anfragen, Schulung der Mitarbeiter und Optimierung der Prozesse.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was ist ein Monopol?",
+    "options": [
+      "Eine Marktform mit mehreren Anbietern",
+      "Eine Marktform mit einem Anbieter",
+      "Eine Marktform ohne Anbieter",
+      "Eine Marktform mit wechselnden Anbietern"
+    ],
+    "correctAnswer": "Eine Marktform mit einem Anbieter",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welches Hauptmerkmal zeichnet einen Monopolisten aus?",
+    "options": [
+      "Er ist der alleinige Anbieter eines Produkts oder einer Dienstleistung auf dem Markt.",
+      "Er ist einer von vielen Anbietern auf dem Markt.",
+      "Er bietet eine breite Palette von Produkten und Dienstleistungen an.",
+      "Er hat keinen Einfluss auf den Markt."
+    ],
+    "correctAnswer": "Er ist der alleinige Anbieter eines Produkts oder einer Dienstleistung auf dem Markt.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Kontrolle hat ein Monopolist typischerweise?",
+    "options": [
+      "Er hat die Kontrolle über den Preis und die Menge des Produkts, da es keine direkte Konkurrenz gibt.",
+      "Er hat keinen Einfluss auf den Preis und die Menge des Produkts.",
+      "Er muss sich mit anderen Anbietern abstimmen, um den Preis festzulegen.",
+      "Er hat die Kontrolle über den Preis, aber nicht über die Menge des Produkts."
+    ],
+    "correctAnswer": "Er hat die Kontrolle über den Preis und die Menge des Produkts, da es keine direkte Konkurrenz gibt.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Auswirkung kann ein Monopol auf die Verbraucher haben?",
+    "options": [
+      "Es kann zu höheren Preisen führen, da der Monopolist den Preis ohne Wettbewerbsdruck festlegt.",
+      "Es führt zu niedrigeren Preisen aufgrund des starken Wettbewerbs.",
+      "Es hat keine Auswirkungen auf die Preise für Verbraucher.",
+      "Es führt zu einer größeren Auswahl und Vielfalt für Verbraucher."
+    ],
+    "correctAnswer": "Es kann zu höheren Preisen führen, da der Monopolist den Preis ohne Wettbewerbsdruck festlegt.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Ein ___ ist eine Marktform, bei der nur ein Unternehmen ein Produkt oder eine Dienstleistung anbietet.",
+    "options": [
+      "Oligopol",
+      "Kartell",
+      "Monopol",
+      "Polypol"
+    ],
+    "correctAnswer": "Monopol",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Ein Monopolist hat die Kontrolle über den __ und die __ des Produkts.",
+    "options": [
+      "Preis; Qualität",
+      "Wettbewerb; Absatz",
+      "Preis; Menge",
+      "Vertrieb; Lagerung"
+    ],
+    "correctAnswer": "Preis; Menge",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Vorteile kann ein Monopol für ein Unternehmen haben?",
+    "options": [
+      "Geringere Gewinne, höherer Wettbewerbsdruck, geringere Markteinflussnahme",
+      "Höhere Gewinne, weniger Wettbewerbsdruck, stärkere Markteinflussnahme",
+      "Niedrigere Gewinne, mehr Wettbewerbsdruck, geringere Markteinflussnahme",
+      "Höhere Gewinne, mehr Wettbewerbsdruck, geringere Markteinflussnahme"
+    ],
+    "correctAnswer": "Höhere Gewinne, weniger Wettbewerbsdruck, stärkere Markteinflussnahme",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was sind potenzielle Nachteile eines Monopols für Verbraucher?",
+    "options": [
+      "Niedrigere Preise, mehr Auswahlmöglichkeiten, höhere Innovationsanreize",
+      "Höhere Preise, weniger Auswahlmöglichkeiten, geringere Innovationsanreize",
+      "Höhere Preise, mehr Auswahlmöglichkeiten, höhere Innovationsanreize",
+      "Niedrigere Preise, weniger Auswahlmöglichkeiten, höhere Innovationsanreize"
+    ],
+    "correctAnswer": "Höhere Preise, weniger Auswahlmöglichkeiten, geringere Innovationsanreize",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Nenne einige Beispiele für Monopolsituationen in Deutschland.",
+    "options": [
+      "Deutsche Bahn AG im Schienenfernverkehr",
+      "Gesetzliche Krankenkassen im Bereich der gesetzlichen Krankenversicherung",
+      "Deutsche Post bis 2008 im Bereich Briefzustellung",
+      "Alle der oben genannten Optionen"
+    ],
+    "correctAnswer": "Alle der oben genannten Optionen",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was ist ein Oligopol?",
+    "options": [
+      "Eine Marktform, bei der wenige Anbieter den Markt dominieren.",
+      "Eine Marktform, bei der nur ein Anbieter ein Produkt oder eine Dienstleistung anbietet.",
+      "Eine Marktform, bei der mehrere Anbieter homogene Produkte anbieten.",
+      "Eine Marktform, bei der die Anzahl der Anbieter unbegrenzt ist."
+    ],
+    "correctAnswer": "Eine Marktform, bei der wenige Anbieter den Markt dominieren.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie viele Anbieter sind typischerweise in einem Oligopol präsent?",
+    "options": [
+      "Es gibt wenige dominierende Anbieter.",
+      "Es gibt nur einen Anbieter.",
+      "Es gibt viele Anbieter mit homogenen Produkten.",
+      "Die Anzahl der Anbieter ist unbegrenzt."
+    ],
+    "correctAnswer": "Es gibt wenige dominierende Anbieter.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Macht haben Unternehmen in einem Oligopol oft?",
+    "options": [
+      "Sie können den Markt beeinflussen, oft durch Koordination von Preisen und Produktionsmengen.",
+      "Sie haben keine Macht und sind stark vom Markt abhängig.",
+      "Sie sind durch staatliche Regulierungen stark eingeschränkt.",
+      "Sie müssen sich an die Entscheidungen der Verbraucher halten."
+    ],
+    "correctAnswer": "Sie können den Markt beeinflussen, oft durch Koordination von Preisen und Produktionsmengen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was kann die Folge der Koordination von Preisen in einem Oligopol sein?",
+    "options": [
+      "Es kann zu weniger Wettbewerb und höheren Preisen für Verbraucher führen.",
+      "Es führt zu einer größeren Vielfalt an Produkten und niedrigeren Preisen.",
+      "Es erhöht die Qualität der Produkte und senkt die Kosten.",
+      "Es hat keine Auswirkungen auf den Markt."
+    ],
+    "correctAnswer": "Es kann zu weniger Wettbewerb und höheren Preisen für Verbraucher führen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Ein ___ ist eine Marktform, bei der wenige Unternehmen einen großen Marktanteil haben.",
+    "options": [
+      "Monopol",
+      "Oligopol",
+      "Polypol",
+      "Duopol"
+    ],
+    "correctAnswer": "Oligopol",
+    "source": "www.google.de"
+  },
+  {
+    "question": "In einem Oligopol können Unternehmen oft __ und __ koordinieren.",
+    "options": [
+      "Preise; Produktionsmengen",
+      "Werbestrategien; Marktsegmente",
+      "Kundendienst; Lieferzeiten",
+      "Produktinnovationen; Verkaufsorte"
+    ],
+    "correctAnswer": "Preise; Produktionsmengen",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was ist der Unterschied zwischen einem Monopol und einem Oligopol?",
+    "options": [
+      "Ein Monopol hat nur einen Anbieter, während ein Oligopol wenige dominierende Anbieter hat.",
+      "Ein Monopol hat mehrere Anbieter, während ein Oligopol nur einen Anbieter hat.",
+      "Ein Monopol hat viele Anbieter, während ein Oligopol wenige Anbieter hat.",
+      "Ein Monopol hat keinen Anbieter, während ein Oligopol viele Anbieter hat."
+    ],
+    "correctAnswer": "Ein Monopol hat nur einen Anbieter, während ein Oligopol wenige dominierende Anbieter hat.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Branchen in Deutschland sind Beispiele für Oligopole?",
+    "options": [
+      "Automobilmarkt",
+      "Telekommunikationsmarkt",
+      "Beide Optionen sind korrekt",
+      "Keine der oben genannten Optionen ist korrekt"
+    ],
+    "correctAnswer": "Beide Optionen sind korrekt",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Warum ist das Kartellrecht im Kontext von Oligopolen wichtig?",
+    "options": [
+      "Um sicherzustellen, dass Unternehmen frei agieren können",
+      "Um wettbewerbsbeschränkende Praktiken zu verhindern",
+      "Um die Preise für Verbraucher zu erhöhen",
+      "Um die Macht der dominierenden Unternehmen zu stärken"
+    ],
+    "correctAnswer": "Um wettbewerbsbeschränkende Praktiken zu verhindern",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was ist ein Polypol?",
+    "options": [
+      "Eine Marktform mit einem Anbieter und vielen Nachfragern",
+      "Eine Marktform mit wenigen Anbietern und vielen Nachfragern",
+      "Eine Marktform mit einem Anbieter und wenigen Nachfragern",
+      "Eine Marktform mit vielen Anbietern und vielen Nachfragern"
+    ],
+    "correctAnswer": "Eine Marktform mit vielen Anbietern und vielen Nachfragern",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Kann ein einzelnes Unternehmen in einem Polypol den Markt beeinflussen?",
+    "options": [
+      "Ja, ein einzelnes Unternehmen kann den Markt beeinflussen",
+      "Nein, kein einzelnes Unternehmen hat genug Marktmacht, um den Markt zu beeinflussen",
+      "Ja, jedes Unternehmen hat genug Marktmacht, um den Markt zu beeinflussen",
+      "Nein, aber ein einzelnes Unternehmen kann den Markt leicht kontrollieren"
+    ],
+    "correctAnswer": "Nein, kein einzelnes Unternehmen hat genug Marktmacht, um den Markt zu beeinflussen",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie werden Preise in einem Polypol bestimmt?",
+    "options": [
+      "Die Preise werden von einer zentralen Behörde festgelegt",
+      "Die Preise werden durch das Zusammenspiel von Angebot und Nachfrage bestimmt",
+      "Die Preise werden von einem einzelnen dominanten Unternehmen festgelegt",
+      "Die Preise werden von der Regierung reguliert"
+    ],
+    "correctAnswer": "Die Preise werden durch das Zusammenspiel von Angebot und Nachfrage bestimmt",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Ein ___ ist eine Marktform, in der viele Anbieter und viele Käufer vorhanden sind und kein Unternehmen den Markt dominieren kann.",
+    "options": [
+      "Oligopol",
+      "Polypol",
+      "Monopol",
+      "Monopson"
+    ],
+    "correctAnswer": "Polypol",
+    "source": "www.google.de"
+  },
+  {
+    "question": "In einem Polypol werden Preise durch __ und __ bestimmt.",
+    "options": [
+      "Angebot und Nachfrage",
+      "Angebot und Wettbewerb",
+      "Nachfrage und Wettbewerb",
+      "Angebot und Preisgestaltung"
+    ],
+    "correctAnswer": "Angebot und Nachfrage",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Vorteile bietet ein Polypol für Verbraucher?",
+    "options": [
+      "Mehr Auswahl, wettbewerbsfähige Preise und fördert Innovation durch den Wettbewerb.",
+      "Weniger Auswahl, höhere Preise und begrenzt Innovation durch fehlenden Wettbewerb.",
+      "Eingeschränkte Auswahl, monopolistische Preise und verhindert Innovation durch mangelnden Wettbewerb.",
+      "Begrenzte Auswahl, wettbewerbsfähige Preise und hemmt Innovation durch zu viel Wettbewerb."
+    ],
+    "correctAnswer": "Mehr Auswahl, wettbewerbsfähige Preise und fördert Innovation durch den Wettbewerb.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was ist ein Käufermarkt?",
+    "options": [
+      "Ein Markt, auf dem die Nachfrager dominieren und die Preise sowie Konditionen bestimmen können.",
+      "Ein Markt, auf dem die Anbieter dominieren und die Preise sowie Konditionen bestimmen können.",
+      "Ein Markt, auf dem weder die Nachfrager noch die Anbieter dominieren und die Preise durch Regierungsrichtlinien festgelegt werden.",
+      "Ein Markt, auf dem weder die Nachfrager noch die Anbieter dominieren und die Preise durch Angebot und Nachfrage bestimmt werden."
+    ],
+    "correctAnswer": "Ein Markt, auf dem die Nachfrager dominieren und die Preise sowie Konditionen bestimmen können.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wer bestimmt die Preise und Konditionen auf einem Käufermarkt?",
+    "options": [
+      "Die Nachfrager.",
+      "Die Anbieter.",
+      "Die Regierung.",
+      "Die Konkurrenten."
+    ],
+    "correctAnswer": "Die Nachfrager.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wer bestimmt die Preise und Konditionen auf einem Verkäufermarkt?",
+    "options": [
+      "Die Nachfrager.",
+      "Die Anbieter.",
+      "Die Regierung.",
+      "Das Gesetz von Angebot und Nachfrage."
+    ],
+    "correctAnswer": "Die Anbieter.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Marktsituation kann vorteilhaft für Verbraucher sein?",
+    "options": [
+      "Ein Verkäufermarkt, da sie hier mehr Auswahl und oft niedrigere Preise haben.",
+      "Ein Monopol, da sie hier qualitativ hochwertige Produkte erhalten.",
+      "Ein Oligopol, da sie hier stabile Preise haben.",
+      "Ein Käufermarkt, da sie hier mehr Auswahl und oft niedrigere Preise haben."
+    ],
+    "correctAnswer": "Ein Käufermarkt, da sie hier mehr Auswahl und oft niedrigere Preise haben.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Marktsituation kann vorteilhaft für Produzenten oder Anbieter sein?",
+    "options": [
+      "Ein Käufermarkt, da sie hier ihre Produkte zu höheren Preisen verkaufen und bessere Konditionen durchsetzen können.",
+      "Ein Monopol, da sie hier die gesamte Marktsteuerung haben.",
+      "Ein Oligopol, da sie hier stabile Preise haben.",
+      "Ein Verkäufermarkt, da sie hier ihre Produkte zu höheren Preisen verkaufen und bessere Konditionen durchsetzen können."
+    ],
+    "correctAnswer": "Ein Verkäufermarkt, da sie hier ihre Produkte zu höheren Preisen verkaufen und bessere Konditionen durchsetzen können.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter einem Markt im wirtschaftlichen Sinne?",
+    "options": [
+      "Ein Zusammentreffen von Angebot und Nachfrage für bestimmte Güter oder Dienstleistungen.",
+      "Ein Ort, an dem Produkte verkauft werden.",
+      "Ein Ort, an dem Anbieter über ihre Produkte informieren.",
+      "Ein Ort, an dem nur Käufer agieren."
+    ],
+    "correctAnswer": "Ein Zusammentreffen von Angebot und Nachfrage für bestimmte Güter oder Dienstleistungen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was ist ein vollkommener Markt?",
+    "options": [
+      "Ein Markt, auf dem alle Marktteilnehmer über vollständige Informationen verfügen und es keine Präferenzen oder Unterschiede zwischen den angebotenen Produkten gibt.",
+      "Ein Markt, auf dem nur wenige Anbieter existieren.",
+      "Ein Markt, auf dem die Preise von der Regierung festgelegt werden.",
+      "Ein Markt, auf dem nur ein Anbieter existiert."
+    ],
+    "correctAnswer": "Ein Markt, auf dem alle Marktteilnehmer über vollständige Informationen verfügen und es keine Präferenzen oder Unterschiede zwischen den angebotenen Produkten gibt.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie entsteht der Preis auf einem vollkommenen Markt?",
+    "options": [
+      "Durch das Zusammentreffen von Angebot und Nachfrage.",
+      "Durch staatliche Regulierung.",
+      "Durch die Willkür der Anbieter.",
+      "Durch Verhandlungen zwischen den Anbietern und den Käufern."
+    ],
+    "correctAnswer": "Durch das Zusammentreffen von Angebot und Nachfrage.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was bedeutet Marktsättigung?",
+    "options": [
+      "Ein Zustand, in dem keine signifikante Steigerung der Nachfrage mehr erwartet wird, da die meisten potenziellen Kunden das Produkt oder die Dienstleistung bereits besitzen oder nutzen.",
+      "Ein Zustand, in dem die Preise aufgrund von Wettbewerb sinken.",
+      "Ein Zustand, in dem neue Unternehmen den Markt betreten.",
+      "Ein Zustand, in dem die Nachfrage stetig steigt."
+    ],
+    "correctAnswer": "Ein Zustand, in dem keine signifikante Steigerung der Nachfrage mehr erwartet wird, da die meisten potenziellen Kunden das Produkt oder die Dienstleistung bereits besitzen oder nutzen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was ist eine Zielgruppendefinition?",
+    "options": [
+      "Die Identifizierung und Beschreibung einer spezifischen Gruppe von Personen, für die ein Produkt oder eine Dienstleistung bestimmt ist.",
+      "Die Festlegung des Preises für ein Produkt oder eine Dienstleistung.",
+      "Die Planung von Marketingaktivitäten.",
+      "Die Auswahl geeigneter Vertriebskanäle."
+    ],
+    "correctAnswer": "Die Identifizierung und Beschreibung einer spezifischen Gruppe von Personen, für die ein Produkt oder eine Dienstleistung bestimmt ist.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Warum ist die Zielgruppendefinition wichtig?",
+    "options": [
+      "Um die Mitarbeiterzufriedenheit zu steigern.",
+      "Um die Produktionskosten zu senken.",
+      "Um Marketing- und Verkaufsstrategien effektiv auszurichten und Ressourcen effizient zu nutzen.",
+      "Um die rechtlichen Anforderungen zu erfüllen."
+    ],
+    "correctAnswer": "Um Marketing- und Verkaufsstrategien effektiv auszurichten und Ressourcen effizient zu nutzen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Wie beeinflusst die Zielgruppendefinition Marketingstrategien?",
+    "options": [
+      "Sie hilft Unternehmen, gezielte Werbekampagnen zu erstellen, die die Bedürfnisse und Interessen der definierten Zielgruppe ansprechen.",
+      "Sie ermöglicht eine breite Streuung von Marketinginhalten.",
+      "Sie führt zu einer Senkung der Marketingbudgets.",
+      "Sie erschwert die Marktforschung."
+    ],
+    "correctAnswer": "Sie hilft Unternehmen, gezielte Werbekampagnen zu erstellen, die die Bedürfnisse und Interessen der definierten Zielgruppe ansprechen.",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Die ___ hilft Unternehmen, ihre Angebote speziell auf die Bedürfnisse einer bestimmten Gruppe auszurichten.",
+    "options": [
+      "Zielgruppenanalyse",
+      "Marktforschung",
+      "Zielgruppendefinition",
+      "Kundenbefragung"
+    ],
+    "correctAnswer": "Zielgruppendefinition",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Welche Faktoren können bei der Zielgruppendefinition berücksichtigt werden?",
+    "options": [
+      "Alter, Geschlecht, Einkommen, Bildung, geografische Lage, Interessen und Lebensstil.",
+      "Farbe, Marke, Gewicht, Größe, Material, Produktionsland",
+      "Preis, Verfügbarkeit, Vertriebskanäle, Marketingstrategie",
+      "Technische Spezifikationen, Leistung, Garantiebedingungen, Kundenservice"
+    ],
+    "correctAnswer": "Alter, Geschlecht, Einkommen, Bildung, geografische Lage, Interessen und Lebensstil.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Datenarten helfen bei der Identifizierung von Zielgruppen?",
+    "options": [
+      "Demografische, psychografische, geografische und Verhaltensdaten.",
+      "Produktspezifikationen, Marktanalysen, Wettbewerbsstudien, Unternehmensstrategien",
+      "Finanzdaten, Umsatzprognosen, Bilanzanalysen, Budgetplanung",
+      "Technische Daten, Konstruktionszeichnungen, Materialanalysen, Fertigungsprozesse"
+    ],
+    "correctAnswer": "Demografische, psychografische, geografische und Verhaltensdaten.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Methoden werden zur Identifizierung von Zielgruppen eingesetzt?",
+    "options": [
+      "Marktforschung, Umfragen und Fokusgruppen.",
+      "Produktentwicklung, Prototyping und Qualitätssicherung.",
+      "Finanzanalyse, Bilanzierung und Investitionsbewertung.",
+      "Technologieentwicklung, Softwareengineering und Datenanalyse."
+    ],
+    "correctAnswer": "Marktforschung, Umfragen und Fokusgruppen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was sind psychografische Daten in der Zielgruppendefinition?",
+    "options": [
+      "Sie betreffen die Interessen, Meinungen und Lebensstile der Zielgruppe.",
+      "Sie beziehen sich auf das Alter, Geschlecht und die geografische Lage der Zielgruppe.",
+      "Sie umfassen demografische und geografische Informationen der Zielgruppe.",
+      "Sie beschreiben die Einkommensverhältnisse und Bildungsniveaus der Zielgruppe."
+    ],
+    "correctAnswer": "Sie betreffen die Interessen, Meinungen und Lebensstile der Zielgruppe.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was beinhalten geografische Daten bei der Zielgruppendefinition?",
+    "options": [
+      "Sie betreffen den Wohnort, die Region, das Land oder spezifische Gebiete, in denen sich die Zielgruppe aufhält.",
+      "Sie umfassen demografische Informationen wie Alter und Geschlecht der Zielgruppe.",
+      "Sie beschreiben die Interessen, Meinungen und Lebensstile der Zielgruppe.",
+      "Sie beziehen sich auf das Einkommen und Bildungsniveau der Zielgruppe."
+    ],
+    "correctAnswer": "Sie betreffen den Wohnort, die Region, das Land oder spezifische Gebiete, in denen sich die Zielgruppe aufhält.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter Verhaltensdaten bei der Zielgruppenidentifikation?",
+    "options": [
+      "Daten über das Kaufverhalten, Markentreue, Produktverwendung und Reaktionen auf Marketingmaßnahmen.",
+      "Sie betreffen den Wohnort, die Region, das Land oder spezifische Gebiete, in denen sich die Zielgruppe aufhält.",
+      "Sie umfassen demografische Informationen wie Alter und Geschlecht der Zielgruppe.",
+      "Sie beschreiben die Interessen, Meinungen und Lebensstile der Zielgruppe."
+    ],
+    "correctAnswer": "Daten über das Kaufverhalten, Markentreue, Produktverwendung und Reaktionen auf Marketingmaßnahmen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter demografischen Daten?",
+    "options": [
+      "Daten über das Kaufverhalten, Markentreue, Produktverwendung und Reaktionen auf Marketingmaßnahmen.",
+      "Sie betreffen den Wohnort, die Region, das Land oder spezifische Gebiete, in denen sich die Zielgruppe aufhält.",
+      "Daten, die die Bevölkerung nach bestimmten Merkmalen wie Alter, Geschlecht, Bildung, Einkommen, Familienstand und Ethnie beschreiben.",
+      "Sie beschreiben die Interessen, Meinungen und Lebensstile der Zielgruppe."
+    ],
+    "correctAnswer": "Daten, die die Bevölkerung nach bestimmten Merkmalen wie Alter, Geschlecht, Bildung, Einkommen, Familienstand und Ethnie beschreiben.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welches Hauptziel verfolgt die Angebotsbewertung?",
+    "options": [
+      "Das beste Preis-Leistungs-Verhältnis zu ermitteln und sicherzustellen, dass das gewählte Angebot die Bedürfnisse und Erwartungen des Käufers optimal erfüllt.",
+      "Die Maximierung des Gewinns für das Unternehmen unabhängig von den Bedürfnissen der Kunden.",
+      "Die Auswahl des teuersten Angebots auf dem Markt.",
+      "Die Förderung von Angeboten unabhängig von ihrer Qualität."
+    ],
+    "correctAnswer": "Das beste Preis-Leistungs-Verhältnis zu ermitteln und sicherzustellen, dass das gewählte Angebot die Bedürfnisse und Erwartungen des Käufers optimal erfüllt.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Hauptkriterien werden häufig bei der Angebotsbewertung berücksichtigt?",
+    "options": [
+      "Preis, Qualität, Lieferzeit, Service, Garantiebedingungen und die Reputation des Anbieters.",
+      "Nur der Preis.",
+      "Nur die Qualität.",
+      "Nur die Lieferzeit."
+    ],
+    "correctAnswer": "Preis, Qualität, Lieferzeit, Service, Garantiebedingungen und die Reputation des Anbieters.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Warum ist die Angebotsbewertung in der Beschaffung so entscheidend?",
+    "options": [
+      "Sie stellt sicher, dass Investitionen effizient genutzt werden, Risiken minimiert werden und dass die Beschaffung den langfristigen Zielen des Unternehmens entspricht.",
+      "Um den billigsten Anbieter zu finden.",
+      "Um die Beschaffung schnell abzuschließen, unabhängig von den langfristigen Auswirkungen.",
+      "Um die Beschaffung aufgrund persönlicher Vorlieben zu treffen."
+    ],
+    "correctAnswer": "Sie stellt sicher, dass Investitionen effizient genutzt werden, Risiken minimiert werden und dass die Beschaffung den langfristigen Zielen des Unternehmens entspricht.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Methoden oder Tools können bei der Angebotsbewertung angewendet werden?",
+    "options": [
+      "Punktesysteme",
+      "Kosten-Nutzen-Analysen",
+      "Benchmarking",
+      "Qualitative Bewertungen"
+    ],
+    "correctAnswer": "Punktesysteme, Kosten-Nutzen-Analysen, Benchmarking und qualitative Bewertungen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Warum ist Software-Kompatibilität bei der Angebotsbewertung in der IT wichtig?",
+    "options": [
+      "Um sicherzustellen, dass neue Lösungen oder Produkte nahtlos mit bestehenden Systemen und Anwendungen integriert werden können.",
+      "Um die Kosten zu senken.",
+      "Um den Zeitaufwand für die Implementierung zu reduzieren.",
+      "Um die Anpassungsfähigkeit an zukünftige Änderungen zu gewährleisten."
+    ],
+    "correctAnswer": "Um sicherzustellen, dass neue Lösungen oder Produkte nahtlos mit bestehenden Systemen und Anwendungen integriert werden können.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was bedeutet Skalierbarkeit in der IT-Angebotsbewertung?",
+    "options": [
+      "Die Fähigkeit eines IT-Produkts oder einer Dienstleistung, mit wachsenden Anforderungen oder Nutzerzahlen umzugehen, ohne Leistungsverluste.",
+      "Die Fähigkeit, die Kosten für IT-Produkte und Dienstleistungen zu senken.",
+      "Die Möglichkeit, IT-Produkte und Dienstleistungen schnell zu implementieren.",
+      "Die Anpassungsfähigkeit an verschiedene Betriebssysteme."
+    ],
+    "correctAnswer": "Die Fähigkeit eines IT-Produkts oder einer Dienstleistung, mit wachsenden Anforderungen oder Nutzerzahlen umzugehen, ohne Leistungsverluste.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Hauptarten des Benchmarking gibt es?",
+    "options": [
+      "Internes",
+      "Konkurrenzbezogenes",
+      "Funktionales",
+      "Generisches",
+      "Internes, konkurrenzbezogenes, funktionales und generisches Benchmarking."
+    ],
+    "correctAnswer": "Internes, konkurrenzbezogenes, funktionales und generisches Benchmarking.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Schritte sind üblicherweise im Benchmarking-Prozess enthalten?",
+    "options": [
+      "Planung, Datenerhebung, Datenanalyse, Implementierung von Verbesserungen und Überwachung der Ergebnisse.",
+      "Ist kein fester Prozess, sondern kann variieren.",
+      "Planung, Ausführung, Überprüfung, Anpassung.",
+      "Datenerhebung, Umsetzung, Auswertung, Feedback."
+    ],
+    "correctAnswer": "Planung, Datenerhebung, Datenanalyse, Implementierung von Verbesserungen und Überwachung der Ergebnisse.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Benchmarking dient dazu, __ und __ im Vergleich zu Branchenstandards zu identifizieren.",
+    "options": [
+      "Stärken und Schwächen",
+      "Chancen und Risiken",
+      "Innovationen und Trends",
+      "Marktposition und Kundenbindung"
+    ],
+    "correctAnswer": "Stärken und Schwächen",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Warum kann Benchmarking einem Unternehmen einen Wettbewerbsvorteil verschaffen?",
+    "options": [
+      "Durch Identifizierung von Best Practices und Entwicklung effizienterer Prozesse",
+      "Durch Erhöhung der Marketingausgaben",
+      "Durch Expansion in neue Märkte",
+      "Durch Reduzierung der Produktvielfalt"
+    ],
+    "correctAnswer": "Durch Identifizierung von Best Practices und Entwicklung effizienterer Prozesse",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Herausforderungen können beim Benchmarking auftreten?",
+    "options": [
+      "Unterschiede in den Prozessen",
+      "Widerstand gegen Veränderungen",
+      "Die Notwendigkeit ständiger Überwachung und Aktualisierung",
+      "Datenzugriff, Unterschiede in den Prozessen, Widerstand gegen Veränderungen, Die Notwendigkeit ständiger Überwachung und Aktualisierung"
+    ],
+    "correctAnswer": "Datenzugriff, Unterschiede in den Prozessen, Widerstand gegen Veränderungen, Die Notwendigkeit ständiger Überwachung und Aktualisierung",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter Benchmarking?",
+    "options": [
+      "Ein Vergleich von Geschäftsprozessen",
+      "Ein Vergleich von Produkten",
+      "Ein Vergleich von Dienstleistungen",
+      "Ein systematischer Vergleich von Geschäftsprozessen, Produkten oder Dienstleistungen eines Unternehmens mit denen führender Unternehmen oder Branchenstandards, um Best Practices zu identifizieren und die eigene Leistung zu verbessern"
+    ],
+    "correctAnswer": "Ein systematischer Vergleich von Geschäftsprozessen, Produkten oder Dienstleistungen eines Unternehmens mit denen führender Unternehmen oder Branchenstandards, um Best Practices zu identifizieren und die eigene Leistung zu verbessern",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter internem Benchmarking?",
+    "options": [
+      "Der Vergleich von Prozessen innerhalb eines Unternehmens",
+      "Der Vergleich von Produkten innerhalb eines Unternehmens",
+      "Der Vergleich von Dienstleistungen innerhalb eines Unternehmens",
+      "Der Vergleich von Prozessen, Produkten oder Dienstleistungen innerhalb eines Unternehmens, z. B. zwischen verschiedenen Abteilungen oder Standorten"
+    ],
+    "correctAnswer": "Der Vergleich von Prozessen, Produkten oder Dienstleistungen innerhalb eines Unternehmens, z. B. zwischen verschiedenen Abteilungen oder Standorten",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter konkurrenzbezogenem Benchmarking?",
+    "options": [
+      "Der Vergleich mit Hauptkonkurrenten in der gleichen Branche",
+      "Der Vergleich mit Kunden in der gleichen Branche",
+      "Der Vergleich mit Lieferanten in der gleichen Branche",
+      "Der Vergleich mit Hauptkonkurrenten in verschiedenen Branchen"
+    ],
+    "correctAnswer": "Der Vergleich mit Hauptkonkurrenten in der gleichen Branche",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter funktionalem Benchmarking?",
+    "options": [
+      "Ein Vergleich mit Unternehmen, die ähnliche Prozesse haben, aber nicht notwendigerweise im gleichen Sektor tätig sind",
+      "Ein Vergleich mit Unternehmen, die in einem anderen Land ansässig sind",
+      "Ein Vergleich mit Unternehmen, die in derselben Stadt ansässig sind",
+      "Ein Vergleich mit Unternehmen, die in einem anderen Sektor tätig sind"
+    ],
+    "correctAnswer": "Ein Vergleich mit Unternehmen, die ähnliche Prozesse haben, aber nicht notwendigerweise im gleichen Sektor tätig sind",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter generischem Benchmarking?",
+    "options": [
+      "Ein Vergleich von Aktivitäten oder Funktionen, die in vielen Unternehmen vorkommen, unabhängig von der Branche",
+      "Ein Vergleich von Unternehmen aus verschiedenen Ländern",
+      "Ein Vergleich von Unternehmen aus verschiedenen Städten",
+      "Ein Vergleich von Unternehmen aus verschiedenen Branchen"
+    ],
+    "correctAnswer": "Ein Vergleich von Aktivitäten oder Funktionen, die in vielen Unternehmen vorkommen, unabhängig von der Branche",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was sind die Schlüsselkomponenten effektiver Fragetechniken in Kundengesprächen?",
+    "options": [
+      "Offene Fragen (zur Anregung von Diskussionen)",
+      "Geschlossene Fragen (zur Bestätigung oder Klärung)",
+      "Zielgerichtete Fragen (zur gezielten Informationsgewinnung)",
+      "Techniken zur Vertiefung (zum tieferen Verständnis)"
+    ],
+    "correctAnswer": "Offene Fragen (zur Anregung von Diskussionen), geschlossene Fragen (zur Bestätigung oder Klärung), zielgerichtete Fragen (zur gezielten Informationsgewinnung) und Techniken zur Vertiefung (zum tieferen Verständnis)",
+    "source": "www.google.de"
+  },
+  {
+    "question": "Was versteht man unter Aktivem Zuhören?",
+    "options": [
+      "Nur das Hören der Worte des Gesprächspartners ohne darauf zu reagieren",
+      "Nur Feedback geben, ohne dem Gesprächspartner zuzuhören",
+      "Nur Empathie zeigen, ohne auf den Inhalt des Gesprächs einzugehen",
+      "Dem Gesprächspartner volle Aufmerksamkeit schenken, Feedback geben, Empathie zeigen, Förderung des Verständnisses, Aufbau von Vertrauen, Sicherstellung, dass keine wichtigen Details übersehen werden"
+    ],
+    "correctAnswer": "Dem Gesprächspartner volle Aufmerksamkeit schenken, Feedback geben, Empathie zeigen, Förderung des Verständnisses, Aufbau von Vertrauen, Sicherstellung, dass keine wichtigen Details übersehen werden",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wie stellt man sicher, dass eine Präsentation bedarfs- und adressatengerecht ist?",
+    "options": [
+      "Indem man die Präsentation so lange wie möglich macht",
+      "Indem man komplexe Fachbegriffe verwendet, um Fachkompetenz zu zeigen",
+      "Indem man die Präsentation an die spezifischen Bedürfnisse des Zielpublikums anpasst und verständliche Sprache sowie relevante Beispiele verwendet",
+      "Indem man die Präsentation schnell durchführt, um Zeit zu sparen"
+    ],
+    "correctAnswer": "Indem man die Präsentation an die spezifischen Bedürfnisse des Zielpublikums anpasst und verständliche Sprache sowie relevante Beispiele verwendet",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was sind offene Fragen in Kundengesprächen?",
+    "options": [
+      "Fragen, die kurz mit 'Ja' oder 'Nein' beantwortet werden können",
+      "Fragen, die Diskussionen anregen und mehr Informationen vom Kunden erhalten sollen",
+      "Fragen, die nur von Fachleuten beantwortet werden können",
+      "Fragen, die den Kunden in die Enge treiben"
+    ],
+    "correctAnswer": "Fragen, die Diskussionen anregen und mehr Informationen vom Kunden erhalten sollen",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was sind geschlossene Fragen in Kundengesprächen?",
+    "options": [
+      "Fragen, die Diskussionen anregen und mehr Informationen vom Kunden erhalten sollen",
+      "Fragen, die zur Bestätigung oder Klärung von Informationen dienen",
+      "Fragen, die nur von Fachleuten beantwortet werden können",
+      "Fragen, die den Kunden in die Enge treiben"
+    ],
+    "correctAnswer": "Fragen, die zur Bestätigung oder Klärung von Informationen dienen",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was sind zielgerichtete Fragen in Kundengesprächen?",
+    "options": [
+      "Fragen, die Diskussionen anregen und mehr Informationen vom Kunden erhalten sollen",
+      "Fragen, die zur Bestätigung oder Klärung von Informationen dienen",
+      "Fragen, die dazu dienen, spezifische Informationen vom Kunden zu erhalten",
+      "Fragen, die den Kunden in die Enge treiben"
+    ],
+    "correctAnswer": "Fragen, die dazu dienen, spezifische Informationen vom Kunden zu erhalten",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was sind Techniken zur Vertiefung in Kundengesprächen?",
+    "options": [
+      "Methoden, die dazu dienen, ein tieferes Verständnis der Bedürfnisse, Wünsche oder Probleme des Kunden zu erreichen.",
+      "Fragen, die Diskussionen anregen und mehr Informationen vom Kunden erhalten sollen",
+      "Fragen, die zur Bestätigung oder Klärung von Informationen dienen",
+      "Fragen, die dazu dienen, spezifische Informationen vom Kunden zu erhalten"
+    ],
+    "correctAnswer": "Methoden, die dazu dienen, ein tieferes Verständnis der Bedürfnisse, Wünsche oder Probleme des Kunden zu erreichen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Gebe ein Beispiel für eine offene Frage in einem Kundengespräch.",
+    "options": [
+      "Haben Sie Interesse an unserem Produkt?",
+      "Möchten Sie dieses Produkt kaufen?",
+      "Was hat Sie dazu bewegt, unser Geschäft zu besuchen?",
+      "Können Sie uns sagen, welche Funktionen Ihnen bei einem Produkt wichtig sind?"
+    ],
+    "correctAnswer": "Was hat Sie dazu bewegt, unser Geschäft zu besuchen?",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Gebe ein Beispiel für eine geschlossene Frage in einem Kundengespräch.",
+    "options": [
+      "Was hat Sie dazu bewegt, unser Geschäft zu besuchen?",
+      "Können Sie uns sagen, welche Funktionen Ihnen bei einem Produkt wichtig sind?",
+      "Haben Sie Interesse an unserem Produkt?",
+      "Möchten Sie dieses Produkt kaufen?"
+    ],
+    "correctAnswer": "Haben Sie Interesse an unserem Produkt?",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist ein wichtiges Ziel bei der Anwendung effektiver Fragetechniken in Kundengesprächen?",
+    "options": [
+      "Schnell zu einem Abschluss kommen",
+      "Den Kunden überzeugen, ein Produkt zu kaufen",
+      "Ein umfassendes Verständnis der Bedürfnisse und Herausforderungen des Kunden zu erlangen",
+      "Dem Kunden möglichst viele Produkte vorzustellen"
+    ],
+    "correctAnswer": "Ein umfassendes Verständnis der Bedürfnisse und Herausforderungen des Kunden zu erlangen",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was bedeutet Eigene Datenerhebung?",
+    "options": [
+      "Daten von externen Quellen sammeln",
+      "Daten von Wettbewerbern sammeln",
+      "Daten direkt von den Endbenutzern oder Stakeholdern sammeln",
+      "Daten aus öffentlichen Quellen sammeln"
+    ],
+    "correctAnswer": "Daten direkt von den Endbenutzern oder Stakeholdern sammeln",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche Methoden gibt es zur Durchführung von Kundenbefragungen?",
+    "options": [
+      "Face-to-Face-Interviews",
+      "Telefoninterviews",
+      "Online-Umfragen",
+      "Persönliche Interviews, Telefoninterviews, Online-Umfragen oder Fokusgruppen können für Kundenbefragungen eingesetzt werden, abhängig von den Zielen und verfügbaren Ressourcen."
+    ],
+    "correctAnswer": "Persönliche Interviews, Telefoninterviews, Online-Umfragen oder Fokusgruppen können für Kundenbefragungen eingesetzt werden, abhängig von den Zielen und verfügbaren Ressourcen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Welche anderen Techniken und Werkzeuge gibt es zur Datenerhebung von Kunden oder Stakeholdern?",
+    "options": [
+      "Umfragen",
+      "Interviews",
+      "Beobachtungen",
+      "Beobachtungen, Workshops, Brainstorming-Sessions oder die Analyse von Kundenfeedback und -bewertungen können zur Datenerhebung von Kunden oder Stakeholdern eingesetzt werden."
+    ],
+    "correctAnswer": "Beobachtungen, Workshops, Brainstorming-Sessions oder die Analyse von Kundenfeedback und -bewertungen können zur Datenerhebung von Kunden oder Stakeholdern eingesetzt werden.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Was ist der Zweck der Eigene Datenerhebung (z.B. Kundenbefragung)?",
+    "options": [
+      "Informationssammlung",
+      "Erfassung von Kundenfeedback",
+      "Datenanalyse",
+      "Der Zweck der Eigene Datenerhebung (z.B. Kundenbefragung) besteht darin, direkte Informationen von Kunden oder Stakeholdern zu erhalten."
+    ],
+    "correctAnswer": "Der Zweck der Eigene Datenerhebung (z.B. Kundenbefragung) besteht darin, direkte Informationen von Kunden oder Stakeholdern zu erhalten.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "In welcher Phase eines IT-Projekts wird die Eigene Datenerhebung (z.B. Kundenbefragung) durchgeführt?",
+    "options": [
+      "Analysephase",
+      "Designphase",
+      "Implementierungsphase",
+      "Die Eigene Datenerhebung (z.B. Kundenbefragung) wird in der Analysephase durchgeführt."
+    ],
+    "correctAnswer": "Die Eigene Datenerhebung (z.B. Kundenbefragung) wird in der Analysephase durchgeführt.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wie kann die Eigene Datenerhebung (z.B. Kundenbefragung) durchgeführt werden?",
+    "options": [
+      "Durch das Sammeln von direktem Feedback und Informationen von Benutzern kann die Datenerhebung erfolgen.",
+      "Durch das Schätzen von statistischen Daten kann die Datenerhebung erfolgen.",
+      "Durch die Beobachtung von Wettbewerbern kann die Datenerhebung erfolgen.",
+      "Durch die Analyse von Markttrends kann die Datenerhebung erfolgen."
+    ],
+    "correctAnswer": "Durch das Sammeln von direktem Feedback und Informationen von Benutzern kann die Datenerhebung erfolgen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Warum ist die Auswertung vorhandener Daten wichtig für die Bedarfsermittlung?",
+    "options": [
+      "Um neue Datenquellen zu identifizieren und zu integrieren.",
+      "Um die Effizienz der Datenverarbeitung zu maximieren.",
+      "Um Muster, Trends und spezifische Anforderungen zu identifizieren, die zur Entwicklung von IT-Lösungen führen.",
+      "Um den Umfang des Projekts zu minimieren und die Kosten zu senken."
+    ],
+    "correctAnswer": "Um Muster, Trends und spezifische Anforderungen zu identifizieren, die zur Entwicklung von IT-Lösungen führen.",
+    "quelle": "www.google.de"
+  },
+  {
+    "question": "Wie wertet man Daten zu Büroarbeitsplatzanforderungen aus, um IT-Lösungen anzupassen?",
+    "options": [
+      "Durch die Analyse von Trends in der Büroarbeitsplatzgestaltung.",
+      "Durch die Identifizierung von Hardware-, Software- und Netzwerkanforderungen.",
+      "Durch die Entwicklung neuer IT-Lösungen von Grund auf.",
+      "Durch die Verbesserung der ergonomischen Merkmale von Büromöbeln."
+    ],
+    "correctAnswer": "Durch die Identifizierung von Hardware-, Software- und Netzwerkanforderungen.",
+    "quelle": "www.google.de"
+  }
+]
