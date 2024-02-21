@@ -42,6 +42,10 @@ var askedQuestions = [];
 let points = 0;
 let falsePoints = 0;
 
+//End-Punktzahl und Prozent
+const endPoints = document.getElementById("end-points");
+const endPercent = document.getElementById("percentage");
+
 
 //Nächste Frage und vorherige Frage 
 function nextQuestion(){
@@ -87,9 +91,6 @@ function nextQuestion(){
     progressPercent = progressPercent - 2.5;
     progress.style.width = progressPercent + "%";
   }
-  
-
-
 
 //Data fetch
 fetch("fragen.json")
@@ -161,12 +162,9 @@ function checkAnswer() {
       }, 1000);
 
       points++;
-      console.log(points);
-      //document.getElementById("points").innerText = "Punktzahl: " + points;
     } else {
       //Wenn Antwort Falsch ist
       falsePopup.style.visibility = "visible";
-      //questionContainer.style.visibility = "hidden";
       questionContainer.style.visibility = "hidden";
       popupRightAnswer.textContent =
         "Die richtige Antwort ist: " + currentQuestion.correctAnswer;
@@ -192,16 +190,16 @@ function checkAnswer() {
         for(let j = 0; j < answersToCorrect.length; j++){
           
         }
-        gameOverFalseAnswers += '<p>' + falseQuestions[i]  + answersToCorrect[i] + '</p><br>';
+        gameOverFalseAnswers += '<p>Frage: ' + falseQuestions[i]  + ' Die Richtige Antwort ist: ' + answersToCorrect[i] + '</p><br>';
       }
       gameOverParagraph.innerHTML = gameOverFalseAnswers;
 
-      falsePoints--;
+      falsePoints++;
+
+      endPoints.innerText = "Ihr Punktzahl ist: " + (40 - falsePoints);
+      endPercent.innerText = (100/40*(40-falsePoints)) + "%";
+
     }
-
-    //var currentQuestion = questions[currentQuestionIndex];
-
-    //let q = questions[currentQuestionIndex].question;
 
     askedQuestions.push(currentQuestion); // Füge die gestellte Frage zum Array hinzu
 
@@ -220,10 +218,4 @@ function checkAnswer() {
   }
 }
 
-// if ((falsePopup.style.visibility = "visible")) {
-//   questionContainer.style.visibility = "hidden";
-// }
-
-//if (falsePopup.style.visibility == "hidden") {
 showQuestion();
-//}
