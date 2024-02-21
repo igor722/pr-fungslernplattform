@@ -15,25 +15,36 @@
       <p id="question"></p>
       <div id="options"></div>
       <p id="source"></p>
-      <button onclick="window.history.back();">Zurück</button>
-      <button onclick="window.history.forward();">Nächste Frage</button>
-        <!-- Progress-Bar -->
+      <button onclick="previousQuestion();">Zurück</button>
+      <button onclick="checkAnswer();">Antwort bestätigen</button>
       <div id="progress-container">
         <div id="progress-actual"></div>
       </div>
- 
-      <!-- Richtige Antwort Pop-Up -->
-      <div id="correct-pop-up">
-        <h3>Richtig!</h3>
-      </div>
- 
-      <!-- Falsche Antwort Pop-Up -->
-      <div id="false-pop-up">
-        <h3>Falsch!</h3>
-        <p id="false-p"></p>
-        <button id="popup-close" onclick="closePopup()">x</button>
-      </div>    
     </div>
+        <!-- Progress-Bar -->
+    
+
+    <!-- Richtige Antwort Pop-Up -->
+    <div id="correct-pop-up">
+      <h3>Richtig!</h3>
+    </div>
+
+    <!-- Falsche Antwort Pop-Up -->
+    <div id="false-pop-up">
+      <h3>Falsch!</h3>
+      <p id="false-p"></p>
+      <button id="popup-close" onclick="closePopup()">x</button>
+    </div>
+    
+    <!-- Game Over PopUp -->
+    <div id="game-over-container">
+      <div id="game-over">
+      
+      </div>
+      <button onclick="newGame()">Neustarten</button>
+    </div>
+    
+
  
     <script src="script.js"></script>
   </body>

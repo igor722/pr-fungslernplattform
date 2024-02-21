@@ -1,3 +1,9 @@
+//New Game Button
+function newGame(){
+  location.reload();
+}
+
+
 // Progress-Bar
 const progress = document.getElementById("progress-actual");
 let progressPercent = 0;
@@ -21,10 +27,71 @@ const radio = document.getElementsByClassName("radio");
 //Richtige Antwort
 const popupRightAnswer = document.getElementById("false-p");
 
+//Falsche Fragen und Antworten Array
+let falseQuestions = [];
+let answersToCorrect = [];
+
+//Game Over Fragen und Antworten Auflisten
+const gameOverParagraph = document.getElementById("game-over");
+const gameOverContainer = document.getElementById("game-over-container");
+
+
+// Fragen Array
 var questions;
 var askedQuestions = [];
 let points = 0;
+let falsePoints = 0;
 
+
+//Nächste Frage und vorherige Frage 
+function nextQuestion(){
+  if(currentQuestionIndex < questions.length){
+      currentQuestionIndex++;
+    } 
+
+    var currentQuestion = questions[currentQuestionIndex];
+    document.getElementById("question").innerText = currentQuestion.question;
+    document.getElementById("source").innerText = currentQuestion.quelle;
+
+    var optionsHtml = "";
+    for (var i = 0; i < currentQuestion.options.length; i++) {
+      optionsHtml +=
+        '<input class="radio" type="radio" name="answer" value="' +
+        currentQuestion.options[i] +
+        '" onclick="selectAnswer(this)">  ' +
+        currentQuestion.options[i] +
+        "<br>";
+    }
+    document.getElementById("options").innerHTML = optionsHtml;
+  }
+
+  function previousQuestion(){
+    if(currentQuestionIndex !== 0){
+      currentQuestionIndex--;
+    } 
+
+    var currentQuestion = questions[currentQuestionIndex];
+    document.getElementById("question").innerText = currentQuestion.question;
+    document.getElementById("source").innerText = currentQuestion.quelle;
+
+    var optionsHtml = "";
+    for (var i = 0; i < currentQuestion.options.length; i++) {
+      optionsHtml +=
+        '<input class="radio" type="radio" name="answer" value="' +
+        currentQuestion.options[i] +
+        '" onclick="selectAnswer(this)">  ' +
+        currentQuestion.options[i] +
+        "<br>";
+    }
+    document.getElementById("options").innerHTML = optionsHtml;
+    progressPercent = progressPercent - 2.5;
+    progress.style.width = progressPercent + "%";
+  }
+  
+
+
+
+//Data fetch
 fetch("fragen.json")
   .then((response) => response.json())
   .then((data) => {
@@ -49,8 +116,8 @@ function showQuestion() {
     var currentQuestion = questions[currentQuestionIndex];
     document.getElementById("question").innerText = currentQuestion.question;
     document.getElementById("source").innerText = currentQuestion.quelle;
-    progressPercent = progressPercent + 4;
-    console.log(progressPercent);
+    progressPercent = progressPercent + 2.5;
+    // console.log(progressPercent);
     progress.style.width = progressPercent + "%";
     var optionsHtml = "";
     for (var i = 0; i < currentQuestion.options.length; i++) {
@@ -63,7 +130,8 @@ function showQuestion() {
     }
     document.getElementById("options").innerHTML = optionsHtml;
   } else {
-    alert("Quiz beendet!");
+    //alert("Game over!");
+    gameOverContainer.style.visibility = "visible";
   }
 }
 
@@ -93,18 +161,47 @@ function checkAnswer() {
       }, 1000);
 
       points++;
-      document.getElementById("points").innerText = "Punktzahl: " + points;
+      console.log(points);
+      //document.getElementById("points").innerText = "Punktzahl: " + points;
     } else {
       //Wenn Antwort Falsch ist
-      // alert(
-      //   "Falsch. Die richtige Antwort ist: " + currentQuestion.correctAnswer
-      // );
       falsePopup.style.visibility = "visible";
       //questionContainer.style.visibility = "hidden";
       questionContainer.style.visibility = "hidden";
       popupRightAnswer.textContent =
         "Die richtige Antwort ist: " + currentQuestion.correctAnswer;
+
+      
+      let q = currentQuestion.question;
+      let a = currentQuestion.correctAnswer;
+
+      
+      console.log(q);
+      console.log(a);
+
+      falseQuestions.push(q);
+      answersToCorrect.push(a);
+
+      console.log(falseQuestions);
+      console.log(answersToCorrect);
+      
+
+      let gameOverFalseAnswers = "";
+
+      for(let i = 0; i < falseQuestions.length; i++){
+        for(let j = 0; j < answersToCorrect.length; j++){
+          
+        }
+        gameOverFalseAnswers += '<p>' + falseQuestions[i]  + answersToCorrect[i] + '</p><br>';
+      }
+      gameOverParagraph.innerHTML = gameOverFalseAnswers;
+
+      falsePoints--;
     }
+
+    //var currentQuestion = questions[currentQuestionIndex];
+
+    //let q = questions[currentQuestionIndex].question;
 
     askedQuestions.push(currentQuestion); // Füge die gestellte Frage zum Array hinzu
 
