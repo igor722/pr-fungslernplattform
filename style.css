@@ -1,6 +1,6 @@
 /* Grundlegende Einstellungen */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family:;
   /* Moderne, leicht lesbare Schriftart */
   line-height: 1.6;
   /* Guter Zeilenabstand für Lesbarkeit */
@@ -9,6 +9,7 @@ body {
   padding: 20px;
   /* Etwas Abstand zum Rand des Browsers */
   margin: 0;
+  
 }
 
 /* Container und Layout */
@@ -32,13 +33,15 @@ h2 {
   /* Dunkle, aber nicht harte Farbe für Überschriften */
   margin-bottom: 16px;
   /* Abstand zur Trennung vom folgenden Inhalt */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 p {
-  color: #666;
+  color:rgb(158, 139, 20);
   /* Weichere Farbe für den Text, um die Augen zu schonen */
   margin-bottom: 10px;
   /* Standardabstand zwischen Absätzen */
+  
 }
 
 /* Optionen und Links */
@@ -150,4 +153,22 @@ button:hover {
   z-index: 1;
   bottom: 0%;
   height: 100%;
+}
+
+#progress-container {
+
+margin-top: 10px;
+
+border-radius: 5px;
+
+}
+
+style.css
+
+#progress-container {
+
+border: 1px solid black;
+
+border: 1px solid green;
+
 }
