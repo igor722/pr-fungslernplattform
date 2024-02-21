@@ -112,7 +112,7 @@ function shuffleQuestions() {
 }
 
 function showQuestion() {
-  if (currentQuestionIndex < questions.length) {
+  if (currentQuestionIndex < 40) {
     //später nur 40 Fragen
     var currentQuestion = questions[currentQuestionIndex];
     document.getElementById("question").innerText = currentQuestion.question;
@@ -197,7 +197,7 @@ function checkAnswer() {
       falsePoints++;
 
       endPoints.innerText = "Ihr Punktzahl ist: " + (40 - falsePoints);
-      endPercent.innerText = (100/40*(40-falsePoints)) + "%";
+      endPercent.innerText = (100  /40 * (40 - falsePoints)) + "%";
 
     }
 
