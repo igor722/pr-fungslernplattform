@@ -8,15 +8,34 @@
   </head>
   <body>
     <div id="question-container">
-      <h2>Quiz</h2>
+      <h2>Quiz zur optimalen Prüfungsvorbereitung</h2>
+      <p id="titel1"></p>
+      <p id="titel2"></p>
       <p id="points"></p>
       <p id="question"></p>
       <div id="options"></div>
       <p id="source"></p>
-      <button onclick="checkAnswer()">Antwort bestätigen</button>
-      <button onclick="shuffleQuestions()">Fragen neu mischen</button>
+      <button onclick="window.history.back();">Zurück</button>
+      <button onclick="window.history.forward();">Nächste Frage</button>
+        <!-- Progress-Bar -->
+      <div id="progress-container">
+        <div id="progress-actual"></div>
+      </div>
+ 
+      <!-- Richtige Antwort Pop-Up -->
+      <div id="correct-pop-up">
+        <h3>Richtig!</h3>
+      </div>
+ 
+      <!-- Falsche Antwort Pop-Up -->
+      <div id="false-pop-up">
+        <h3>Falsch!</h3>
+        <p id="false-p"></p>
+        <button id="popup-close" onclick="closePopup()">x</button>
+      </div>    
     </div>
-
+ 
     <script src="script.js"></script>
   </body>
 </html>
+
